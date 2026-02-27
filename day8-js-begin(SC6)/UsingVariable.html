@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Variable</title>
+</head>
+<body>
+    <h1>Using Variable</h1>
+    <p id="outputgreeting">Hello, World!</p>
+<script>
+    var greeting = "Welcome to JavaScript!";
+    console.log(greeting);
+
+    let name = "John";
+    console.log("Welcome," + name + " |");
+
+    document.getElementById("outputgreeting").innerHTML = 
+    greeting + " My name is " + name;
+
+    var company = "Capgemini";
+    let officeLocation = "Bangalore";
+    const year = 2025;
+
+    console.log("I work at " + company + 
+    " located in " + officeLocation + 
+    " and the year is " + year);
+
+    document.getElementById("outputgreeting").innerHTML += 
+    "<br>I work at " + company + 
+    " located in " + officeLocation + 
+    " and the year is " + year;
+
+    if(true){
+        var company = "TCS";    //var is function scoped, so it will override the previous value of company
+        let officeLocation = "Mumbai"; //let is block scoped, so it will not override the previous value of officeLocation
+        const year = 2025;
+
+        // Inside block: I work at TCS located in Mumbai and the year is 2025
+        console.log("Inside block: I work at " + company +
+        " located in " + officeLocation + 
+        " and the year is " + year);
+
+        // Using template literals for better readability
+        console.log(`Inside block: I work at ${company} located in ${officeLocation} and the year is ${year}`);
+    }
+    // Outside block: I work at TCS located in Bangalore and the year is 2025
+    console.log("Outside block: I work at " + company +
+    " located in " + officeLocation + 
+    " and the year is " + year);
+
+    // Using template literals for better readability
+    console.log(`Outside block: I work at ${company} located in ${officeLocation} and the year is ${year}`);
+
+
+            var name1 = "Alice";
+            var name1 = "Bob"; // Redeclaring var is allowed, it will override the previous value
+            console.log(name1); // Output: Bob
+            
+            console.log("\n====Function Scope====");
+            function testvar (){
+                var name = "Charlie";
+                console.log(name1); // Output: Charlie
+            }
+
+            testvar();
+            console.log(name1); // Output: Bob, var is function scoped, so it does not affect the global variable name
+
+
+            console.log("\n====Primitive Data Types====");
+            let name2 = "David";
+            let age = 30;
+            let isStudent = false;
+            let salary;
+            let bonus = null;
+            let bigNumber = 9007199254740991n; // BigInt for large integers
+
+            console.log(typeof name2); // Output: string
+            console.log(typeof age); // Output: number 
+            console.log(typeof isStudent); // Output: boolean
+            console.log(typeof salary); // Output: undefined
+            console.log(typeof bonus); // Output: object (null is considered an object in JavaScript)
+            console.log(typeof bigNumber); // Output: bigint
+
+            console.log("\n====Non-primitive Data Types====");
+            let person = {
+                name: "Eve",
+                age: 25
+            };// Object
+
+            let numbers = [1, 2, 3, 4, 5]; // Array
+            let today = new Date(); // Date object
+            function greet() {
+                console.log("Welcome!");
+            } // Function
+            console.log(typeof greet); // Output: function
+            console.log(typeof person); // Output: object
+            console.log(typeof numbers); // Output: object (arrays are a type of object in Java
+            console.log(typeof today); // Output: object
+</script>
+</body>
+</html>

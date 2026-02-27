@@ -1,0 +1,15 @@
+C:\Users\mathu\OneDrive\Desktop\.net dev\day1\boxing-unboxing\bin\Debug\net10.0\boxing-unboxing.exe
+C:\Users\mathu\OneDrive\Desktop\.net dev\day1\boxing-unboxing\bin\Debug\net10.0\boxing-unboxing.deps.json
+C:\Users\mathu\OneDrive\Desktop\.net dev\day1\boxing-unboxing\bin\Debug\net10.0\boxing-unboxing.runtimeconfig.json
+C:\Users\mathu\OneDrive\Desktop\.net dev\day1\boxing-unboxing\bin\Debug\net10.0\boxing-unboxing.dll
+C:\Users\mathu\OneDrive\Desktop\.net dev\day1\boxing-unboxing\bin\Debug\net10.0\boxing-unboxing.pdb
+C:\Users\mathu\OneDrive\Desktop\.net dev\day1\boxing-unboxing\obj\Debug\net10.0\boxing-unboxing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathu\OneDrive\Desktop\.net dev\day1\boxing-unboxing\obj\Debug\net10.0\boxing-unboxing.AssemblyInfoInputs.cache
+C:\Users\mathu\OneDrive\Desktop\.net dev\day1\boxing-unboxing\obj\Debug\net10.0\boxing-unboxing.AssemblyInfo.cs
+C:\Users\mathu\OneDrive\Desktop\.net dev\day1\boxing-unboxing\obj\Debug\net10.0\boxing-unboxing.csproj.CoreCompileInputs.cache
+C:\Users\mathu\OneDrive\Desktop\.net dev\day1\boxing-unboxing\obj\Debug\net10.0\boxing-unboxing.sourcelink.json
+C:\Users\mathu\OneDrive\Desktop\.net dev\day1\boxing-unboxing\obj\Debug\net10.0\boxing-unboxing.dll
+C:\Users\mathu\OneDrive\Desktop\.net dev\day1\boxing-unboxing\obj\Debug\net10.0\refint\boxing-unboxing.dll
+C:\Users\mathu\OneDrive\Desktop\.net dev\day1\boxing-unboxing\obj\Debug\net10.0\boxing-unboxing.pdb
+C:\Users\mathu\OneDrive\Desktop\.net dev\day1\boxing-unboxing\obj\Debug\net10.0\boxing-unboxing.genruntimeconfig.cache
+C:\Users\mathu\OneDrive\Desktop\.net dev\day1\boxing-unboxing\obj\Debug\net10.0\ref\boxing-unboxing.dll

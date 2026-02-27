@@ -1,0 +1,124 @@
+<!-- Requirements
+=======================
+1. Create Global Variables
+
+const companyName
+let warehouseLocation
+var totalProducts
+
+2. Create an Array of Products
+
+Each product should have:
+id
+name
+price
+quantity
+
+3. Create Functions
+
+displayProducts()
+→ Use for loop
+→ Display all products
+
+calculateInventoryValue()
+→ Use loop
+→ Return total price × quantity
+
+applyDiscount(discountPercent = 10)
+→ Use default parameter
+→ Reduce product price
+
+4. Block Scope Demonstration
+
+Inside a block:
+Change warehouseLocation using let
+Change totalProducts using var
+Show console difference -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables-1 </title>
+
+<body>
+    <script>
+        const warehouseLocation = "Bangalore";
+        var totalProducts = 100;
+
+        let products = [
+            {
+                id: 1,
+                name: "Laptop",
+                price: 50000,
+                quantity: 5
+            },
+            {
+                id: 2,
+                name: "Mouse",
+                price: 500,
+                quantity: 20
+            },
+            {
+                id: 3,
+                name: "Keyboard",
+                price: 1500,
+                quantity: 10
+            },
+            {
+                id: 4,
+                name: "Monitor",
+                price: 12000,
+                quantity: 7
+            }
+
+
+        ];
+
+        function displayProducts(){
+            for(let i = 0; i < products.length; i++){
+                console.log(`Product ID: ${products[i].id}, Name: ${products[i].name}, Price: ${products[i].price}, Quantity: ${products[i].quantity}`);
+            }
+        }
+
+        function calculateInventoryValue(){
+            let totalValue = 0;
+            for(let i = 0; i < products.length; i++){
+                totalValue += products[i].price * products[i].quantity;
+            }
+            return totalValue;
+        }
+
+        function applyDiscount(discountPercentage=10){
+            for(let i = 0; i < products.length; i++){
+                products[i].price -= products[i].price * (discountPercentage / 100);
+            }
+        }
+
+
+        if(true){
+            //let --> block scope
+            let warehouseLocation = "Mumbai"; // This will not affect the outer warehouseLocation due to block scope of const
+
+            //var --> function scope
+            var totalProducts = 200; // This will affect the outer totalProducts due to function scope of var
+            console.log("Inside block: Warehouse Location is " + warehouseLocation); // Output: Mumbai
+            console.log("Total Products = " + totalProducts);
+        }
+
+        console.log("Outside block: Warehouse Location is " + warehouseLocation); // Output: Bangalore
+        console.log("Total Products = " + totalProducts);
+
+        displayProducts();
+        console.log("Total Inventory Value: " + calculateInventoryValue());
+
+
+
+    </script>
+</body>
+
+</html>

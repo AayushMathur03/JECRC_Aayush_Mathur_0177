@@ -1,0 +1,14 @@
+C:\dotnet\day4\arrays\bin\Debug\net10.0\arrays.exe
+C:\dotnet\day4\arrays\bin\Debug\net10.0\arrays.deps.json
+C:\dotnet\day4\arrays\bin\Debug\net10.0\arrays.runtimeconfig.json
+C:\dotnet\day4\arrays\bin\Debug\net10.0\arrays.dll
+C:\dotnet\day4\arrays\bin\Debug\net10.0\arrays.pdb
+C:\dotnet\day4\arrays\obj\Debug\net10.0\arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\dotnet\day4\arrays\obj\Debug\net10.0\arrays.AssemblyInfoInputs.cache
+C:\dotnet\day4\arrays\obj\Debug\net10.0\arrays.AssemblyInfo.cs
+C:\dotnet\day4\arrays\obj\Debug\net10.0\arrays.csproj.CoreCompileInputs.cache
+C:\dotnet\day4\arrays\obj\Debug\net10.0\arrays.dll
+C:\dotnet\day4\arrays\obj\Debug\net10.0\refint\arrays.dll
+C:\dotnet\day4\arrays\obj\Debug\net10.0\arrays.pdb
+C:\dotnet\day4\arrays\obj\Debug\net10.0\arrays.genruntimeconfig.cache
+C:\dotnet\day4\arrays\obj\Debug\net10.0\ref\arrays.dll

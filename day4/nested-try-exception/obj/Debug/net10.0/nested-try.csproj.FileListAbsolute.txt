@@ -1,0 +1,14 @@
+C:\dotnet\day4\nested-try\bin\Debug\net10.0\nested-try.exe
+C:\dotnet\day4\nested-try\bin\Debug\net10.0\nested-try.deps.json
+C:\dotnet\day4\nested-try\bin\Debug\net10.0\nested-try.runtimeconfig.json
+C:\dotnet\day4\nested-try\bin\Debug\net10.0\nested-try.dll
+C:\dotnet\day4\nested-try\bin\Debug\net10.0\nested-try.pdb
+C:\dotnet\day4\nested-try\obj\Debug\net10.0\nested-try.GeneratedMSBuildEditorConfig.editorconfig
+C:\dotnet\day4\nested-try\obj\Debug\net10.0\nested-try.AssemblyInfoInputs.cache
+C:\dotnet\day4\nested-try\obj\Debug\net10.0\nested-try.AssemblyInfo.cs
+C:\dotnet\day4\nested-try\obj\Debug\net10.0\nested-try.csproj.CoreCompileInputs.cache
+C:\dotnet\day4\nested-try\obj\Debug\net10.0\nested-try.dll
+C:\dotnet\day4\nested-try\obj\Debug\net10.0\refint\nested-try.dll
+C:\dotnet\day4\nested-try\obj\Debug\net10.0\nested-try.pdb
+C:\dotnet\day4\nested-try\obj\Debug\net10.0\nested-try.genruntimeconfig.cache
+C:\dotnet\day4\nested-try\obj\Debug\net10.0\ref\nested-try.dll

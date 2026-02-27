@@ -1,0 +1,8 @@
+important interview question in .net
+1. Boxing and implicit conversion is same ?
+2. Unboxing and Explicit conversion is same ?
+3. dfference beween type casting and type conversiion
+4. when i ran t
+
+
+

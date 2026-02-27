@@ -1,0 +1,14 @@
+C:\dotnet\day5\me-list2\bin\Debug\net10.0\me-list2.exe
+C:\dotnet\day5\me-list2\bin\Debug\net10.0\me-list2.deps.json
+C:\dotnet\day5\me-list2\bin\Debug\net10.0\me-list2.runtimeconfig.json
+C:\dotnet\day5\me-list2\bin\Debug\net10.0\me-list2.dll
+C:\dotnet\day5\me-list2\bin\Debug\net10.0\me-list2.pdb
+C:\dotnet\day5\me-list2\obj\Debug\net10.0\me-list2.GeneratedMSBuildEditorConfig.editorconfig
+C:\dotnet\day5\me-list2\obj\Debug\net10.0\me-list2.AssemblyInfoInputs.cache
+C:\dotnet\day5\me-list2\obj\Debug\net10.0\me-list2.AssemblyInfo.cs
+C:\dotnet\day5\me-list2\obj\Debug\net10.0\me-list2.csproj.CoreCompileInputs.cache
+C:\dotnet\day5\me-list2\obj\Debug\net10.0\me-list2.dll
+C:\dotnet\day5\me-list2\obj\Debug\net10.0\refint\me-list2.dll
+C:\dotnet\day5\me-list2\obj\Debug\net10.0\me-list2.pdb
+C:\dotnet\day5\me-list2\obj\Debug\net10.0\me-list2.genruntimeconfig.cache
+C:\dotnet\day5\me-list2\obj\Debug\net10.0\ref\me-list2.dll

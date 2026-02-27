@@ -1,0 +1,15 @@
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\stringdsort\bin\Debug\net10.0\stringdsort.exe
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\stringdsort\bin\Debug\net10.0\stringdsort.deps.json
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\stringdsort\bin\Debug\net10.0\stringdsort.runtimeconfig.json
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\stringdsort\bin\Debug\net10.0\stringdsort.dll
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\stringdsort\bin\Debug\net10.0\stringdsort.pdb
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\stringdsort\obj\Debug\net10.0\stringdsort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\stringdsort\obj\Debug\net10.0\stringdsort.AssemblyInfoInputs.cache
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\stringdsort\obj\Debug\net10.0\stringdsort.AssemblyInfo.cs
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\stringdsort\obj\Debug\net10.0\stringdsort.csproj.CoreCompileInputs.cache
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\stringdsort\obj\Debug\net10.0\stringdsort.sourcelink.json
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\stringdsort\obj\Debug\net10.0\stringdsort.dll
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\stringdsort\obj\Debug\net10.0\refint\stringdsort.dll
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\stringdsort\obj\Debug\net10.0\stringdsort.pdb
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\stringdsort\obj\Debug\net10.0\stringdsort.genruntimeconfig.cache
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\stringdsort\obj\Debug\net10.0\ref\stringdsort.dll

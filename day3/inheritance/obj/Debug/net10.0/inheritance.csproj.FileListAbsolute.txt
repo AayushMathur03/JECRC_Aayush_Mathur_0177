@@ -1,0 +1,14 @@
+C:\dotnet\day3\inheritance\bin\Debug\net10.0\inheritance.exe
+C:\dotnet\day3\inheritance\bin\Debug\net10.0\inheritance.deps.json
+C:\dotnet\day3\inheritance\bin\Debug\net10.0\inheritance.runtimeconfig.json
+C:\dotnet\day3\inheritance\bin\Debug\net10.0\inheritance.dll
+C:\dotnet\day3\inheritance\bin\Debug\net10.0\inheritance.pdb
+C:\dotnet\day3\inheritance\obj\Debug\net10.0\inheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\dotnet\day3\inheritance\obj\Debug\net10.0\inheritance.AssemblyInfoInputs.cache
+C:\dotnet\day3\inheritance\obj\Debug\net10.0\inheritance.AssemblyInfo.cs
+C:\dotnet\day3\inheritance\obj\Debug\net10.0\inheritance.csproj.CoreCompileInputs.cache
+C:\dotnet\day3\inheritance\obj\Debug\net10.0\inheritance.dll
+C:\dotnet\day3\inheritance\obj\Debug\net10.0\refint\inheritance.dll
+C:\dotnet\day3\inheritance\obj\Debug\net10.0\inheritance.pdb
+C:\dotnet\day3\inheritance\obj\Debug\net10.0\inheritance.genruntimeconfig.cache
+C:\dotnet\day3\inheritance\obj\Debug\net10.0\ref\inheritance.dll

@@ -1,0 +1,14 @@
+C:\dotnet\day3\polymmorphism\bin\Debug\net10.0\polymmorphism.exe
+C:\dotnet\day3\polymmorphism\bin\Debug\net10.0\polymmorphism.deps.json
+C:\dotnet\day3\polymmorphism\bin\Debug\net10.0\polymmorphism.runtimeconfig.json
+C:\dotnet\day3\polymmorphism\bin\Debug\net10.0\polymmorphism.dll
+C:\dotnet\day3\polymmorphism\bin\Debug\net10.0\polymmorphism.pdb
+C:\dotnet\day3\polymmorphism\obj\Debug\net10.0\polymmorphism.GeneratedMSBuildEditorConfig.editorconfig
+C:\dotnet\day3\polymmorphism\obj\Debug\net10.0\polymmorphism.AssemblyInfoInputs.cache
+C:\dotnet\day3\polymmorphism\obj\Debug\net10.0\polymmorphism.AssemblyInfo.cs
+C:\dotnet\day3\polymmorphism\obj\Debug\net10.0\polymmorphism.csproj.CoreCompileInputs.cache
+C:\dotnet\day3\polymmorphism\obj\Debug\net10.0\polymmorphism.dll
+C:\dotnet\day3\polymmorphism\obj\Debug\net10.0\refint\polymmorphism.dll
+C:\dotnet\day3\polymmorphism\obj\Debug\net10.0\polymmorphism.pdb
+C:\dotnet\day3\polymmorphism\obj\Debug\net10.0\polymmorphism.genruntimeconfig.cache
+C:\dotnet\day3\polymmorphism\obj\Debug\net10.0\ref\polymmorphism.dll

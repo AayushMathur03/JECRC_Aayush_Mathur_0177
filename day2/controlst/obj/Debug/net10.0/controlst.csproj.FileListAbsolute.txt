@@ -1,0 +1,15 @@
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\controlst\bin\Debug\net10.0\controlst.exe
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\controlst\bin\Debug\net10.0\controlst.deps.json
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\controlst\bin\Debug\net10.0\controlst.runtimeconfig.json
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\controlst\bin\Debug\net10.0\controlst.dll
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\controlst\bin\Debug\net10.0\controlst.pdb
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\controlst\obj\Debug\net10.0\controlst.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\controlst\obj\Debug\net10.0\controlst.AssemblyInfoInputs.cache
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\controlst\obj\Debug\net10.0\controlst.AssemblyInfo.cs
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\controlst\obj\Debug\net10.0\controlst.csproj.CoreCompileInputs.cache
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\controlst\obj\Debug\net10.0\controlst.sourcelink.json
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\controlst\obj\Debug\net10.0\controlst.dll
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\controlst\obj\Debug\net10.0\refint\controlst.dll
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\controlst\obj\Debug\net10.0\controlst.pdb
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\controlst\obj\Debug\net10.0\controlst.genruntimeconfig.cache
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\controlst\obj\Debug\net10.0\ref\controlst.dll

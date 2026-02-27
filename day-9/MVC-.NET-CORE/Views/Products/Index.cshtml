@@ -1,0 +1,24 @@
+﻿@model List<MVC_.NET_CORE.Models.Product>
+
+<h2>Products</h2>
+
+<table border="1">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var product in Model)
+    {
+        <tr>
+            <td>@product.Id</td>
+            <td>@product.Name</td>
+            <td>@product.Price</td>
+            <td>
+                <a href="/Products/Details/@product.Id">View</a>
+            </td>
+        </tr>
+    }
+</table>

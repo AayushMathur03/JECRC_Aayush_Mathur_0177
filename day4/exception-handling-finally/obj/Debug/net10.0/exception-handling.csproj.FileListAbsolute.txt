@@ -1,0 +1,14 @@
+C:\dotnet\day4\exception-handling\bin\Debug\net10.0\exception-handling.exe
+C:\dotnet\day4\exception-handling\bin\Debug\net10.0\exception-handling.deps.json
+C:\dotnet\day4\exception-handling\bin\Debug\net10.0\exception-handling.runtimeconfig.json
+C:\dotnet\day4\exception-handling\bin\Debug\net10.0\exception-handling.dll
+C:\dotnet\day4\exception-handling\bin\Debug\net10.0\exception-handling.pdb
+C:\dotnet\day4\exception-handling\obj\Debug\net10.0\exception-handling.GeneratedMSBuildEditorConfig.editorconfig
+C:\dotnet\day4\exception-handling\obj\Debug\net10.0\exception-handling.AssemblyInfoInputs.cache
+C:\dotnet\day4\exception-handling\obj\Debug\net10.0\exception-handling.AssemblyInfo.cs
+C:\dotnet\day4\exception-handling\obj\Debug\net10.0\exception-handling.csproj.CoreCompileInputs.cache
+C:\dotnet\day4\exception-handling\obj\Debug\net10.0\exception-handling.dll
+C:\dotnet\day4\exception-handling\obj\Debug\net10.0\refint\exception-handling.dll
+C:\dotnet\day4\exception-handling\obj\Debug\net10.0\exception-handling.pdb
+C:\dotnet\day4\exception-handling\obj\Debug\net10.0\exception-handling.genruntimeconfig.cache
+C:\dotnet\day4\exception-handling\obj\Debug\net10.0\ref\exception-handling.dll

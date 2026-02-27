@@ -1,0 +1,72 @@
+backlog of day 1 which got complted on day 2
+object oriented programming
+
+1. classes and objects
+2. 4 pillars
+3. encapsualtion , inheritance , polmorphism, abstraaction
+4. polymorohism -> method overridng and method overloading 
+5. usinf is a directive 
+6. study again manged and unmanged 
+
+test your knowledge
+
+
+new day 
+data type sin c#
+c# is a stringly typed langugae ? 
+    ans -> Key Characteristics of Strongly Typed Languages:
+
+Prevents type-related bugs
+
+Improves code safety
+
+Makes large systems more reliable
+
+Helps during compile-time error detection
+
+💡 Common Strongly Typed Languages:
+
+Java
+C#
+C++
+Swift
+Kotlin
+TypeScript
+
+
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Task- 1
+        // DateTime? dt = DateTime.Now;
+        // object o = dt;
+
+        // // Unboxing to a nullable DateTime
+        // DateTime? dt2 = o as DateTime?;
+
+        // if (dt2 != null)
+        // {
+        //     Console.WriteLine(dt2.Value.ToString());
+        // }
+
+        // Console.ReadLine();
+
+        //Task 2
+        // int? j = null;
+        // int? k = 54;
+
+        // int result1 = j ?? 0;   
+        // int result2 = k ?? 0;
+
+        // // this will print 0 and 54
+        // Console.WriteLine("result1 = {0}, result2 = {1}", result1, result2);
+        // Console.ReadLine();
+    }
+}
+
+
+
+OOPS

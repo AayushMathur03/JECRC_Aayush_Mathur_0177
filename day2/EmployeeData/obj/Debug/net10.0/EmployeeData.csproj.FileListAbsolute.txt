@@ -1,0 +1,15 @@
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\EmployeeData\bin\Debug\net10.0\EmployeeData.exe
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\EmployeeData\bin\Debug\net10.0\EmployeeData.deps.json
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\EmployeeData\bin\Debug\net10.0\EmployeeData.runtimeconfig.json
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\EmployeeData\bin\Debug\net10.0\EmployeeData.dll
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\EmployeeData\bin\Debug\net10.0\EmployeeData.pdb
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\EmployeeData\obj\Debug\net10.0\EmployeeData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\EmployeeData\obj\Debug\net10.0\EmployeeData.AssemblyInfoInputs.cache
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\EmployeeData\obj\Debug\net10.0\EmployeeData.AssemblyInfo.cs
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\EmployeeData\obj\Debug\net10.0\EmployeeData.csproj.CoreCompileInputs.cache
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\EmployeeData\obj\Debug\net10.0\EmployeeData.sourcelink.json
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\EmployeeData\obj\Debug\net10.0\EmployeeData.dll
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\EmployeeData\obj\Debug\net10.0\refint\EmployeeData.dll
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\EmployeeData\obj\Debug\net10.0\EmployeeData.pdb
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\EmployeeData\obj\Debug\net10.0\EmployeeData.genruntimeconfig.cache
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\EmployeeData\obj\Debug\net10.0\ref\EmployeeData.dll

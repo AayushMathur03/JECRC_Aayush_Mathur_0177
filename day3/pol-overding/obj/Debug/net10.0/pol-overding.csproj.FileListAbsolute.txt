@@ -1,0 +1,14 @@
+C:\dotnet\day3\pol-overding\bin\Debug\net10.0\pol-overding.exe
+C:\dotnet\day3\pol-overding\bin\Debug\net10.0\pol-overding.deps.json
+C:\dotnet\day3\pol-overding\bin\Debug\net10.0\pol-overding.runtimeconfig.json
+C:\dotnet\day3\pol-overding\bin\Debug\net10.0\pol-overding.dll
+C:\dotnet\day3\pol-overding\bin\Debug\net10.0\pol-overding.pdb
+C:\dotnet\day3\pol-overding\obj\Debug\net10.0\pol-overding.GeneratedMSBuildEditorConfig.editorconfig
+C:\dotnet\day3\pol-overding\obj\Debug\net10.0\pol-overding.AssemblyInfoInputs.cache
+C:\dotnet\day3\pol-overding\obj\Debug\net10.0\pol-overding.AssemblyInfo.cs
+C:\dotnet\day3\pol-overding\obj\Debug\net10.0\pol-overding.csproj.CoreCompileInputs.cache
+C:\dotnet\day3\pol-overding\obj\Debug\net10.0\pol-overding.dll
+C:\dotnet\day3\pol-overding\obj\Debug\net10.0\refint\pol-overding.dll
+C:\dotnet\day3\pol-overding\obj\Debug\net10.0\pol-overding.pdb
+C:\dotnet\day3\pol-overding\obj\Debug\net10.0\pol-overding.genruntimeconfig.cache
+C:\dotnet\day3\pol-overding\obj\Debug\net10.0\ref\pol-overding.dll

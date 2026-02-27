@@ -1,0 +1,14 @@
+C:\dotnet\day4\task5\bin\Debug\net10.0\task5.exe
+C:\dotnet\day4\task5\bin\Debug\net10.0\task5.deps.json
+C:\dotnet\day4\task5\bin\Debug\net10.0\task5.runtimeconfig.json
+C:\dotnet\day4\task5\bin\Debug\net10.0\task5.dll
+C:\dotnet\day4\task5\bin\Debug\net10.0\task5.pdb
+C:\dotnet\day4\task5\obj\Debug\net10.0\task5.GeneratedMSBuildEditorConfig.editorconfig
+C:\dotnet\day4\task5\obj\Debug\net10.0\task5.AssemblyInfoInputs.cache
+C:\dotnet\day4\task5\obj\Debug\net10.0\task5.AssemblyInfo.cs
+C:\dotnet\day4\task5\obj\Debug\net10.0\task5.csproj.CoreCompileInputs.cache
+C:\dotnet\day4\task5\obj\Debug\net10.0\task5.dll
+C:\dotnet\day4\task5\obj\Debug\net10.0\refint\task5.dll
+C:\dotnet\day4\task5\obj\Debug\net10.0\task5.pdb
+C:\dotnet\day4\task5\obj\Debug\net10.0\task5.genruntimeconfig.cache
+C:\dotnet\day4\task5\obj\Debug\net10.0\ref\task5.dll

@@ -1,0 +1,14 @@
+C:\dotnet\day5\collections\bin\Debug\net10.0\collections.exe
+C:\dotnet\day5\collections\bin\Debug\net10.0\collections.deps.json
+C:\dotnet\day5\collections\bin\Debug\net10.0\collections.runtimeconfig.json
+C:\dotnet\day5\collections\bin\Debug\net10.0\collections.dll
+C:\dotnet\day5\collections\bin\Debug\net10.0\collections.pdb
+C:\dotnet\day5\collections\obj\Debug\net10.0\collections.GeneratedMSBuildEditorConfig.editorconfig
+C:\dotnet\day5\collections\obj\Debug\net10.0\collections.AssemblyInfoInputs.cache
+C:\dotnet\day5\collections\obj\Debug\net10.0\collections.AssemblyInfo.cs
+C:\dotnet\day5\collections\obj\Debug\net10.0\collections.csproj.CoreCompileInputs.cache
+C:\dotnet\day5\collections\obj\Debug\net10.0\collections.dll
+C:\dotnet\day5\collections\obj\Debug\net10.0\refint\collections.dll
+C:\dotnet\day5\collections\obj\Debug\net10.0\collections.pdb
+C:\dotnet\day5\collections\obj\Debug\net10.0\collections.genruntimeconfig.cache
+C:\dotnet\day5\collections\obj\Debug\net10.0\ref\collections.dll

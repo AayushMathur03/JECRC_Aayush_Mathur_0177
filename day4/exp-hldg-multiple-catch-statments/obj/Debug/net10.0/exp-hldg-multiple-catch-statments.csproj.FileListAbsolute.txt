@@ -1,0 +1,14 @@
+C:\dotnet\day4\exp-hldg-multiple-catch-statments\bin\Debug\net10.0\exp-hldg-multiple-catch-statments.exe
+C:\dotnet\day4\exp-hldg-multiple-catch-statments\bin\Debug\net10.0\exp-hldg-multiple-catch-statments.deps.json
+C:\dotnet\day4\exp-hldg-multiple-catch-statments\bin\Debug\net10.0\exp-hldg-multiple-catch-statments.runtimeconfig.json
+C:\dotnet\day4\exp-hldg-multiple-catch-statments\bin\Debug\net10.0\exp-hldg-multiple-catch-statments.dll
+C:\dotnet\day4\exp-hldg-multiple-catch-statments\bin\Debug\net10.0\exp-hldg-multiple-catch-statments.pdb
+C:\dotnet\day4\exp-hldg-multiple-catch-statments\obj\Debug\net10.0\exp-hldg-multiple-catch-statments.GeneratedMSBuildEditorConfig.editorconfig
+C:\dotnet\day4\exp-hldg-multiple-catch-statments\obj\Debug\net10.0\exp-hldg-multiple-catch-statments.AssemblyInfoInputs.cache
+C:\dotnet\day4\exp-hldg-multiple-catch-statments\obj\Debug\net10.0\exp-hldg-multiple-catch-statments.AssemblyInfo.cs
+C:\dotnet\day4\exp-hldg-multiple-catch-statments\obj\Debug\net10.0\exp-hldg-multiple-catch-statments.csproj.CoreCompileInputs.cache
+C:\dotnet\day4\exp-hldg-multiple-catch-statments\obj\Debug\net10.0\exp-hldg-multiple-catch-statments.dll
+C:\dotnet\day4\exp-hldg-multiple-catch-statments\obj\Debug\net10.0\refint\exp-hldg-multiple-catch-statments.dll
+C:\dotnet\day4\exp-hldg-multiple-catch-statments\obj\Debug\net10.0\exp-hldg-multiple-catch-statments.pdb
+C:\dotnet\day4\exp-hldg-multiple-catch-statments\obj\Debug\net10.0\exp-hldg-multiple-catch-statments.genruntimeconfig.cache
+C:\dotnet\day4\exp-hldg-multiple-catch-statments\obj\Debug\net10.0\ref\exp-hldg-multiple-catch-statments.dll

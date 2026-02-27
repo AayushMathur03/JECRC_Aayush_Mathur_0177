@@ -1,0 +1,14 @@
+C:\dotnet\day3\abstractclass\bin\Debug\net10.0\abstractclass.exe
+C:\dotnet\day3\abstractclass\bin\Debug\net10.0\abstractclass.deps.json
+C:\dotnet\day3\abstractclass\bin\Debug\net10.0\abstractclass.runtimeconfig.json
+C:\dotnet\day3\abstractclass\bin\Debug\net10.0\abstractclass.dll
+C:\dotnet\day3\abstractclass\bin\Debug\net10.0\abstractclass.pdb
+C:\dotnet\day3\abstractclass\obj\Debug\net10.0\abstractclass.GeneratedMSBuildEditorConfig.editorconfig
+C:\dotnet\day3\abstractclass\obj\Debug\net10.0\abstractclass.AssemblyInfoInputs.cache
+C:\dotnet\day3\abstractclass\obj\Debug\net10.0\abstractclass.AssemblyInfo.cs
+C:\dotnet\day3\abstractclass\obj\Debug\net10.0\abstractclass.csproj.CoreCompileInputs.cache
+C:\dotnet\day3\abstractclass\obj\Debug\net10.0\abstractclass.dll
+C:\dotnet\day3\abstractclass\obj\Debug\net10.0\refint\abstractclass.dll
+C:\dotnet\day3\abstractclass\obj\Debug\net10.0\abstractclass.pdb
+C:\dotnet\day3\abstractclass\obj\Debug\net10.0\abstractclass.genruntimeconfig.cache
+C:\dotnet\day3\abstractclass\obj\Debug\net10.0\ref\abstractclass.dll

@@ -1,0 +1,15 @@
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\switch\bin\Debug\net10.0\switch.exe
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\switch\bin\Debug\net10.0\switch.deps.json
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\switch\bin\Debug\net10.0\switch.runtimeconfig.json
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\switch\bin\Debug\net10.0\switch.dll
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\switch\bin\Debug\net10.0\switch.pdb
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\switch\obj\Debug\net10.0\switch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\switch\obj\Debug\net10.0\switch.AssemblyInfoInputs.cache
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\switch\obj\Debug\net10.0\switch.AssemblyInfo.cs
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\switch\obj\Debug\net10.0\switch.csproj.CoreCompileInputs.cache
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\switch\obj\Debug\net10.0\switch.sourcelink.json
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\switch\obj\Debug\net10.0\switch.dll
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\switch\obj\Debug\net10.0\refint\switch.dll
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\switch\obj\Debug\net10.0\switch.pdb
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\switch\obj\Debug\net10.0\switch.genruntimeconfig.cache
+C:\Users\mathu\OneDrive\Desktop\.net dev\day2\switch\obj\Debug\net10.0\ref\switch.dll
