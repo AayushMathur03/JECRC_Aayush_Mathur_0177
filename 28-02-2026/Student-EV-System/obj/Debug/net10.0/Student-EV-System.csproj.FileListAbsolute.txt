@@ -1,0 +1,15 @@
+C:\dotnet\28-02-2026\Student-EV-System\bin\Debug\net10.0\Student-EV-System.exe
+C:\dotnet\28-02-2026\Student-EV-System\bin\Debug\net10.0\Student-EV-System.deps.json
+C:\dotnet\28-02-2026\Student-EV-System\bin\Debug\net10.0\Student-EV-System.runtimeconfig.json
+C:\dotnet\28-02-2026\Student-EV-System\bin\Debug\net10.0\Student-EV-System.dll
+C:\dotnet\28-02-2026\Student-EV-System\bin\Debug\net10.0\Student-EV-System.pdb
+C:\dotnet\28-02-2026\Student-EV-System\obj\Debug\net10.0\Student-EV-System.GeneratedMSBuildEditorConfig.editorconfig
+C:\dotnet\28-02-2026\Student-EV-System\obj\Debug\net10.0\Student-EV-System.AssemblyInfoInputs.cache
+C:\dotnet\28-02-2026\Student-EV-System\obj\Debug\net10.0\Student-EV-System.AssemblyInfo.cs
+C:\dotnet\28-02-2026\Student-EV-System\obj\Debug\net10.0\Student-EV-System.csproj.CoreCompileInputs.cache
+C:\dotnet\28-02-2026\Student-EV-System\obj\Debug\net10.0\Student-EV-System.sourcelink.json
+C:\dotnet\28-02-2026\Student-EV-System\obj\Debug\net10.0\Student-EV-System.dll
+C:\dotnet\28-02-2026\Student-EV-System\obj\Debug\net10.0\refint\Student-EV-System.dll
+C:\dotnet\28-02-2026\Student-EV-System\obj\Debug\net10.0\Student-EV-System.pdb
+C:\dotnet\28-02-2026\Student-EV-System\obj\Debug\net10.0\Student-EV-System.genruntimeconfig.cache
+C:\dotnet\28-02-2026\Student-EV-System\obj\Debug\net10.0\ref\Student-EV-System.dll
