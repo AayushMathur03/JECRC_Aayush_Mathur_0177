@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>E-Commerce Add to Cart Demo</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background:#f4f6f9;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+        }
+
+        .container{
+            background:white;
+            padding:30px;
+            border-radius:10px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.1);
+            text-align:center;
+        }
+
+        button{
+            padding:12px 20px;
+            border:none;
+            background:#007bff;
+            color:white;
+            border-radius:5px;
+            cursor:pointer;
+            font-size:16px;
+        }
+
+        button:hover{
+            background:#0056b3;
+        }
+
+        #msg{
+            margin-top:20px;
+            font-weight:bold;
+            color:green;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>Product Page</h2>
+
+    <p><b>Product:</b> Wireless Headphones</p>
+
+    <button id="addCart">Add to Cart</button>
+
+    <p id="msg"></p>
+
+</div>
+
+
+<script>
+
+const addCartBtn = document.getElementById("addCart");
+const msg = document.getElementById("msg");
+
+addCartBtn.addEventListener("click", function(){
+
+    console.log("Product added to cart");
+
+    msg.innerHTML = "Item successfully added to cart";
+
+});
+
+</script>
+
+</body>
+
+</html>
