@@ -1,16 +1,33 @@
-# JavaScript DOM Events Practice 🚀
+# JavaScript DOM Events & Monitoring Tasks 🚀
 
-# 🧩 Task 1: E-Commerce Add to Cart Button
+This repository contains **9 JavaScript practice tasks** focused on **DOM manipulation, event handling, logging, analytics, and performance monitoring**.
+
+These exercises simulate **real-world web application scenarios** such as e-commerce actions, login monitoring, analytics tracking, and performance measurement.
+
+---
+
+# 📚 Topics Covered
+
+* DOM Manipulation
+* JavaScript Event Handling
+* Mouse Events
+* Keyboard Events
+* Logging Systems
+* Analytics Tracking
+* Form Validation
+* Performance Monitoring
+
+---
+
+# 🧩 Task 1 — E-Commerce Add to Cart Button
 
 ### Scenario
 
-In an online shopping website, when a user clicks **Add to Cart**, the product should be added to the cart and a confirmation message should be displayed.
+When a user clicks **Add to Cart**, the product is added and a confirmation message appears.
 
 ### Event Used
 
 `click`
-    
-### Code
 
 ```html
 <button id="addCart">Add to Cart</button>
@@ -28,24 +45,17 @@ document.getElementById("addCart").addEventListener("click", function(){
 </script>
 ```
 
-### Output
-
-* Console displays: `Product added to cart`
-* UI shows: **Item successfully added to cart**
-
 ---
 
-# ⌨️ Task 2: Login Form Keyboard Event
+# ⌨️ Task 2 — Login Form Keyboard Event
 
 ### Scenario
 
-When the user presses **Enter** in the username field, the login attempt should be triggered.
+Pressing **Enter** inside the username field triggers login submission.
 
 ### Event Used
 
 `keydown`
-
-### Code
 
 ```html
 <input type="text" id="username" placeholder="Enter username">
@@ -65,25 +75,17 @@ alert("Submitting login form");
 </script>
 ```
 
-### Output
-
-* When **Enter key is pressed**
-* Console logs login attempt
-* Alert box simulates form submission
-
 ---
 
-# 🔒 Task 3: Secure Banking App Right Click Disable
+# 🔒 Task 3 — Disable Right Click (Security)
 
 ### Scenario
 
-To protect sensitive information, the banking application disables **right-click functionality**.
+A banking portal disables right-click to protect sensitive data.
 
 ### Event Used
 
 `contextmenu`
-
-### Code
 
 ```javascript
 document.addEventListener("contextmenu", function(e){
@@ -95,59 +97,47 @@ console.warn("Right click disabled for security");
 });
 ```
 
-### Output
-
-* Right-click menu is disabled
-* Console warning message is displayed
-
 ---
 
-# 💬 Task 4: Customer Support Chat Mouse Hover
+# 💬 Task 4 — Customer Support Chat Hover
 
 ### Scenario
 
-A chat icon displays a **tooltip message** when the user hovers over it.
+Hovering over the chat icon displays a tooltip message.
 
 ### Event Used
 
 `mouseover`
-
-### Code
 
 ```html
 <div id="chatIcon">💬 Chat Support</div>
 <p id="info"></p>
 
 <script>
+
 document.getElementById("chatIcon").addEventListener("mouseover", function(){
 
-    document.getElementById("info").innerText =
-    "Click here to talk with customer support";
+document.getElementById("info").innerText =
+"Click here to talk with customer support";
 
-    console.log("Mouse hovered over chat icon");
+console.log("Mouse hovered over chat icon");
 
 });
+
 </script>
 ```
 
-### Output
-
-* Tooltip message appears on hover
-* Console logs hover action
-
 ---
 
-# ❤️ Task 5: Double Click to Like Product
+# ❤️ Task 5 — Double Click to Like Product
 
 ### Scenario
 
-In many applications like **Instagram or shopping apps**, double-clicking a product image increases the like count.
+Double-clicking a product image increases the like counter.
 
 ### Event Used
 
 `dblclick`
-
-### Code
 
 ```html
 <img id="product" src="https://via.placeholder.com/200">
@@ -158,41 +148,150 @@ let likes = 0;
 
 document.getElementById("product").addEventListener("dblclick", function(){
 
-    likes++;
+likes++;
 
-    document.getElementById("count").innerText = likes;
+document.getElementById("count").innerText = likes;
 
-    console.log("Product liked", likes);
+console.log("Product liked", likes);
 
 });
 </script>
 ```
 
-### Output
+---
 
-* Double-clicking the image increases the **like counter**
-* Console logs the number of likes
+# 📊 Task 6 — Track User Login Activity
+
+### Scenario
+
+Applications log user login attempts for monitoring.
+
+```html
+<input id="username" placeholder="Enter Username">
+<button onclick="login()">Login</button>
+
+<script>
+
+function login(){
+
+const user = document.getElementById("username").value;
+
+logger.log("INFO", "User Login Attempt", {username:user});
+
+}
+
+</script>
+```
 
 ---
 
-# 📊 Summary of Events Used
+# ⚠️ Task 7 — Log Form Validation Errors
 
-| Task   | Event         | Purpose             |
-| ------ | ------------- | ------------------- |
-| Task 1 | `click`       | Add product to cart |
-| Task 2 | `keydown`     | Detect Enter key    |
-| Task 3 | `contextmenu` | Disable right click |
-| Task 4 | `mouseover`   | Show tooltip        |
-| Task 5 | `dblclick`    | Like a product      |
+### Scenario
+
+If a user submits an invalid email, the system logs the validation issue.
+
+```javascript
+function validateForm(){
+
+const email = document.getElementById("email").value;
+
+if(!email.includes("@")){
+
+logger.log("WARN","Invalid Email Entered",email);
+
+alert("Invalid email");
+
+}
+
+}
+```
 
 ---
 
-# 🎯 Learning Outcome
+# 📈 Task 8 — Track Button Click Analytics
+
+### Scenario
+
+Companies track which buttons users interact with the most.
+
+```html
+<button onclick="trackClick('Buy Now')">Buy Now</button>
+<button onclick="trackClick('Add Wishlist')">Add Wishlist</button>
+
+<script>
+
+function trackClick(action){
+
+logger.log("INFO","User Action:",action);
+
+}
+
+</script>
+```
+
+---
+
+# ⚡ Task 9 — Monitor Page Load Performance
+
+### Scenario
+
+Developers measure how long the page takes to load.
+
+### API Used
+
+`performance.now()`
+
+```javascript
+const start = performance.now();
+
+window.onload = function(){
+
+const end = performance.now();
+
+const loadTime = end - start;
+
+logger.log("INFO","Page Load Time:", loadTime + " ms");
+
+}
+```
+
+---
+
+# 📊 Summary of Events & Concepts
+
+| Task   | Event / Concept         |
+| ------ | ----------------------- |
+| Task 1 | `click`                 |
+| Task 2 | `keydown`               |
+| Task 3 | `contextmenu`           |
+| Task 4 | `mouseover`             |
+| Task 5 | `dblclick`              |
+| Task 6 | User activity logging   |
+| Task 7 | Form validation logging |
+| Task 8 | Button click analytics  |
+| Task 9 | Performance monitoring  |
+
+---
+
+# 🎯 Learning Outcomes
 
 After completing these tasks, you will understand:
 
-* How to use **JavaScript Event Listeners**
-* How to interact with **DOM elements**
-* How to respond to **user interactions**
-* How to update the **UI dynamically**
+* How **JavaScript interacts with the DOM**
+* Handling **user interaction events**
+* Implementing **logging and analytics**
+* Monitoring **application performance**
+* Basic **frontend monitoring techniques**
 
+---
+
+# 🛠 Technologies Used
+
+* HTML5
+* JavaScript (DOM API)
+* Browser Performance API
+
+---
+
+⭐ These tasks were implemented as part of **JavaScript event handling and monitoring practice exercises**.
