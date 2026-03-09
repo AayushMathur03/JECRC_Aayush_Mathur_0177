@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Button Click Event</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    padding:40px;
+}
+
+button{
+    padding:12px 20px;
+    font-size:16px;
+    background:#28a745;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1e7e34;
+}
+</style>
+
+</head>
+
+<body>
+
+<h2>Login Button Example</h2>
+
+<button id="loginBtn">Login</button>
+
+<script>
+
+// Add event listener with arrow function
+document.getElementById("loginBtn").addEventListener("click", (e) => {
+
+    console.log("Login button clicked");
+
+    alert("Login process started");
+
+});
+
+</script>
+
+</body>
+</html>

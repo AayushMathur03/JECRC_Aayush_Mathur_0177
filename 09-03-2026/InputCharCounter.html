@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Character Counter</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    padding:40px;
+}
+
+textarea{
+    width:300px;
+    height:120px;
+    padding:10px;
+    font-size:16px;
+}
+
+p{
+    margin-top:10px;
+    font-size:18px;
+    color:#333;
+}
+</style>
+
+</head>
+
+<body>
+
+<h2>Live Character Counter</h2>
+
+<textarea id="message" placeholder="Type your message here..."></textarea>
+
+<p id="count">Characters: 0</p>
+
+<script>
+
+// keyup event using arrow function
+document.getElementById("message").addEventListener("keyup", (e) => {
+
+    let length = e.target.value.length;
+
+    document.getElementById("count").innerText = "Characters: " + length;
+
+});
+
+</script>
+
+</body>
+</html>
