@@ -1,0 +1,15 @@
+C:\dotnet\07-03-2026\task-8-employee-salary-analysis-system\bin\Debug\net10.0\task-8-employee-salary-analysis-system.exe
+C:\dotnet\07-03-2026\task-8-employee-salary-analysis-system\bin\Debug\net10.0\task-8-employee-salary-analysis-system.deps.json
+C:\dotnet\07-03-2026\task-8-employee-salary-analysis-system\bin\Debug\net10.0\task-8-employee-salary-analysis-system.runtimeconfig.json
+C:\dotnet\07-03-2026\task-8-employee-salary-analysis-system\bin\Debug\net10.0\task-8-employee-salary-analysis-system.dll
+C:\dotnet\07-03-2026\task-8-employee-salary-analysis-system\bin\Debug\net10.0\task-8-employee-salary-analysis-system.pdb
+C:\dotnet\07-03-2026\task-8-employee-salary-analysis-system\obj\Debug\net10.0\task-8-employee-salary-analysis-system.GeneratedMSBuildEditorConfig.editorconfig
+C:\dotnet\07-03-2026\task-8-employee-salary-analysis-system\obj\Debug\net10.0\task-8-employee-salary-analysis-system.AssemblyInfoInputs.cache
+C:\dotnet\07-03-2026\task-8-employee-salary-analysis-system\obj\Debug\net10.0\task-8-employee-salary-analysis-system.AssemblyInfo.cs
+C:\dotnet\07-03-2026\task-8-employee-salary-analysis-system\obj\Debug\net10.0\task-8-employee-salary-analysis-system.csproj.CoreCompileInputs.cache
+C:\dotnet\07-03-2026\task-8-employee-salary-analysis-system\obj\Debug\net10.0\task-8-employee-salary-analysis-system.sourcelink.json
+C:\dotnet\07-03-2026\task-8-employee-salary-analysis-system\obj\Debug\net10.0\task-8-employee-salary-analysis-system.dll
+C:\dotnet\07-03-2026\task-8-employee-salary-analysis-system\obj\Debug\net10.0\refint\task-8-employee-salary-analysis-system.dll
+C:\dotnet\07-03-2026\task-8-employee-salary-analysis-system\obj\Debug\net10.0\task-8-employee-salary-analysis-system.pdb
+C:\dotnet\07-03-2026\task-8-employee-salary-analysis-system\obj\Debug\net10.0\task-8-employee-salary-analysis-system.genruntimeconfig.cache
+C:\dotnet\07-03-2026\task-8-employee-salary-analysis-system\obj\Debug\net10.0\ref\task-8-employee-salary-analysis-system.dll
