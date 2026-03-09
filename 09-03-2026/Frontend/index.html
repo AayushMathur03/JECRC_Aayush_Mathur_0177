@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Todo — Stay Focused</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg: #FAF8F4;
+    --surface: #FFFFFF;
+    --surface2: #F3F0EA;
+    --border: #E8E2D9;
+    --text: #1C1917;
+    --text-soft: #78716C;
+    --accent: #C2410C;
+    --accent-light: #FEF3EE;
+    --done: #A8A29E;
+    --shadow: 0 2px 16px rgba(0,0,0,0.06);
+    --radius: 14px;
+    --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --bg: #17120F;
+    --surface: #221D1A;
+    --surface2: #2C2622;
+    --border: #3D3530;
+    --text: #F5F0EB;
+    --text-soft: #9C9189;
+    --accent: #EA580C;
+    --accent-light: #2C1A12;
+    --done: #57534E;
+    --shadow: 0 2px 20px rgba(0,0,0,0.3);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 48px 20px 80px;
+    transition: background var(--transition), color var(--transition);
+  }
+
+  .app {
+    width: 100%;
+    max-width: 560px;
+    animation: slideUp 0.5s cubic-bezier(0.4,0,0.2,1) both;
+  }
+
+  @keyframes slideUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Header */
+  .header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 36px;
+  }
+
+  .header-left h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: var(--text);
+  }
+
+  .header-left p {
+    font-size: 0.85rem;
+    color: var(--text-soft);
+    font-weight: 300;
+    margin-top: 6px;
+    letter-spacing: 0.02em;
+  }
+
+  #darkToggle {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1.5px solid var(--border);
+    background: var(--surface);
+    cursor: pointer;
+    font-size: 1.15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition);
+    box-shadow: var(--shadow);
+    flex-shrink: 0;
+  }
+
+  #darkToggle:hover {
+    border-color: var(--accent);
+    transform: rotate(20deg) scale(1.08);
+  }
+
+  /* Card */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px;
+    box-shadow: var(--shadow);
+    margin-bottom: 16px;
+    transition: background var(--transition), border-color var(--transition);
+  }
+
+  /* Input row */
+  .input-row {
+    display: flex;
+    gap: 10px;
+  }
+
+  .input-row input {
+    flex: 1;
+    padding: 12px 16px;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem;
+    background: var(--surface2);
+    color: var(--text);
+    outline: none;
+    transition: all var(--transition);
+  }
+
+  .input-row input:focus {
+    border-color: var(--accent);
+    background: var(--surface);
+    box-shadow: 0 0 0 3px var(--accent-light);
+  }
+
+  .input-row input::placeholder { color: var(--text-soft); }
+
+  .btn-add {
+    padding: 12px 20px;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all var(--transition);
+    white-space: nowrap;
+  }
+
+  .btn-add:hover {
+    background: #9A3412;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 14px rgba(194,65,12,0.3);
+  }
+
+  .btn-add:active { transform: translateY(0); }
+
+  /* Search */
+  .search-wrap {
+    position: relative;
+  }
+
+  .search-icon {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-soft);
+    font-size: 0.85rem;
+    pointer-events: none;
+  }
+
+  #search {
+    width: 100%;
+    padding: 11px 16px 11px 38px;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    background: var(--surface2);
+    color: var(--text);
+    outline: none;
+    transition: all var(--transition);
+  }
+
+  #search:focus {
+    border-color: var(--accent);
+    background: var(--surface);
+    box-shadow: 0 0 0 3px var(--accent-light);
+  }
+
+  #search::placeholder { color: var(--text-soft); }
+
+  /* Filter tabs */
+  .filter-bar {
+    display: flex;
+    gap: 6px;
+    background: var(--surface2);
+    border-radius: 10px;
+    padding: 4px;
+    border: 1px solid var(--border);
+  }
+
+  .filter-btn {
+    flex: 1;
+    padding: 8px 0;
+    border: none;
+    border-radius: 7px;
+    background: transparent;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: var(--text-soft);
+    cursor: pointer;
+    transition: all var(--transition);
+  }
+
+  .filter-btn.active {
+    background: var(--surface);
+    color: var(--text);
+    font-weight: 500;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+  }
+
+  .filter-btn:hover:not(.active) { color: var(--text); }
+
+  /* Divider label */
+  .section-label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 20px 0 12px;
+    font-size: 0.72rem;
+    font-weight: 500;
+    color: var(--text-soft);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  /* Task List */
+  #taskList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  #taskList li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+    transition: all var(--transition);
+    animation: fadeIn 0.25s ease both;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  #taskList li:hover {
+    border-color: var(--accent);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  }
+
+  #taskList li.completed .task-text {
+    text-decoration: line-through;
+    color: var(--done);
+  }
+
+  /* Custom checkbox */
+  .task-check {
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    border: 1.5px solid var(--border);
+    background: var(--surface2);
+    cursor: pointer;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition);
+    font-size: 0.7rem;
+    color: transparent;
+  }
+
+  li.completed .task-check {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+
+  .task-text {
+    flex: 1;
+    font-size: 0.93rem;
+    line-height: 1.4;
+    color: var(--text);
+    transition: color var(--transition);
+  }
+
+  .task-delete {
+    width: 28px;
+    height: 28px;
+    border-radius: 7px;
+    border: none;
+    background: transparent;
+    color: var(--text-soft);
+    cursor: pointer;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all var(--transition);
+  }
+
+  li:hover .task-delete {
+    opacity: 1;
+  }
+
+  .task-delete:hover {
+    background: #FEE2E2;
+    color: #DC2626;
+  }
+
+  /* Empty state */
+  .empty-state {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--text-soft);
+  }
+
+  .empty-state .emoji { font-size: 2.2rem; display: block; margin-bottom: 10px; }
+  .empty-state p { font-size: 0.9rem; font-weight: 300; }
+
+  /* Footer count */
+  .footer-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    padding: 0 2px;
+    font-size: 0.8rem;
+    color: var(--text-soft);
+    font-weight: 300;
+  }
+
+  .count-badge {
+    background: var(--accent-light);
+    color: var(--accent);
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: 20px;
+  }
+
+  /* Edit button on task row */
+  .task-action-btn {
+    width: 28px;
+    height: 28px;
+    border-radius: 7px;
+    border: none;
+    background: transparent;
+    color: var(--text-soft);
+    cursor: pointer;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all var(--transition);
+  }
+
+  li:hover .task-action-btn { opacity: 1; }
+
+  .edit-btn:hover {
+    background: var(--accent-light);
+    color: var(--accent);
+  }
+
+  /* Edit Modal */
+  #editModal {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+
+  #editModal.visible { opacity: 1; }
+
+  .modal-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.35);
+    backdrop-filter: blur(3px);
+  }
+
+  .modal-box {
+    position: relative;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px 24px 24px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 20px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+    transform: translateY(8px);
+    transition: transform 0.2s ease;
+  }
+
+  #editModal.visible .modal-box { transform: translateY(0); }
+
+  .modal-label {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: var(--text);
+  }
+
+  .modal-input {
+    width: 100%;
+    padding: 11px 14px;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem;
+    background: var(--surface2);
+    color: var(--text);
+    outline: none;
+    transition: all var(--transition);
+    margin-bottom: 18px;
+  }
+
+  .modal-input:focus {
+    border-color: var(--accent);
+    background: var(--surface);
+    box-shadow: 0 0 0 3px var(--accent-light);
+  }
+
+  .modal-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+  }
+
+  .modal-cancel {
+    padding: 9px 18px;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    background: transparent;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.88rem;
+    color: var(--text-soft);
+    cursor: pointer;
+    transition: all var(--transition);
+  }
+
+  .modal-cancel:hover {
+    border-color: var(--text-soft);
+    color: var(--text);
+  }
+
+  .modal-save {
+    padding: 9px 22px;
+    border: none;
+    border-radius: 8px;
+    background: var(--accent);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    transition: all var(--transition);
+  }
+
+  .modal-save:hover {
+    background: #9A3412;
+    transform: translateY(-1px);
+  }
+
+  /* Toast */
+  .toast {
+    position: fixed;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%) translateY(12px);
+    background: var(--text);
+    color: var(--bg);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
+    z-index: 2000;
+    white-space: nowrap;
+  }
+
+  .toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+
+  .toast-error {
+    background: #DC2626;
+    color: #fff;
+  }
+</style>
+</head>
+
+<body>
+<div class="app">
+
+  <!-- Header -->
+  <div class="header">
+    <div class="header-left">
+      <h1>My Tasks</h1>
+      <p id="dateLabel"></p>
+    </div>
+    <button id="darkToggle" onclick="toggleDarkMode()" title="Toggle dark mode">🌙</button>
+  </div>
+
+  <!-- Add Task Card -->
+  <div class="card">
+    <div class="input-row">
+      <input type="text" id="taskInput" placeholder="What needs to be done?" autocomplete="off">
+      <button class="btn-add" onclick="addTask()">+ Add</button>
+    </div>
+  </div>
+
+  <!-- Search & Filter Card -->
+  <div class="card">
+    <div class="search-wrap" style="margin-bottom: 14px;">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="search" placeholder="Search tasks..." onkeyup="searchTask()">
+    </div>
+    <div class="filter-bar">
+      <button class="filter-btn active" onclick="filterTasks('all', this)">All</button>
+      <button class="filter-btn" onclick="filterTasks('active', this)">Active</button>
+      <button class="filter-btn" onclick="filterTasks('completed', this)">Completed</button>
+    </div>
+  </div>
+
+  <!-- Task List -->
+  <div class="section-label">Tasks</div>
+  <ul id="taskList"></ul>
+
+  <!-- Footer -->
+  <div class="footer-meta">
+    <span id="taskCount">0 tasks</span>
+    <span id="completedCount" class="count-badge">0 done</span>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
