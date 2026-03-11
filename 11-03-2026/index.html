@@ -1,80 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>JS Tasks Output</title>
+<title>JavaScript Tasks</title>
 <style>
 body{font-family:Arial;padding:40px;background:#f4f6f9}
-h2{margin-top:30px}
-.box{background:white;padding:15px;border-radius:8px;margin-bottom:15px}
-button{padding:8px 15px;margin-bottom:10px;cursor:pointer}
+.box{background:white;padding:15px;margin-bottom:15px;border-radius:8px}
+button{padding:8px 15px;cursor:pointer}
+h2{margin:0 0 10px 0}
 </style>
 </head>
 <body>
 
-<h1>JavaScript Tasks Output</h1>
+<h1>JavaScript Array Tasks</h1>
 
 <div class="box">
 <h2>Student Grade Processing</h2>
-<button onclick="task16()">Show Output</button>
+<button onclick="task16()">Run</button>
 <p id="t16"></p>
 </div>
 
 <div class="box">
 <h2>Online Order Filtering</h2>
-<button onclick="task17()">Show Output</button>
+<button onclick="task17()">Run</button>
 <p id="t17"></p>
 </div>
 
 <div class="box">
 <h2>Shopping Cart Total</h2>
-<button onclick="task18()">Show Output</button>
+<button onclick="task18()">Run</button>
 <p id="t18"></p>
 </div>
 
 <div class="box">
 <h2>E-Commerce Price Update</h2>
-<button onclick="task19()">Show Output</button>
+<button onclick="task19()">Run</button>
 <p id="t19"></p>
 </div>
 
 <div class="box">
 <h2>Pass Students Only</h2>
-<button onclick="task20()">Show Output</button>
+<button onclick="task20()">Run</button>
 <p id="t20"></p>
 </div>
 
-<script>
-function task16(){
-const marks=[65,70,80,55,90];
-const updated=marks.map(m=>m+5);
-document.getElementById("t16").innerText=JSON.stringify(updated);
-}
-
-function task17(){
-const orders=[450,1200,700,3000,1500];
-const result=orders.filter(o=>o>1000);
-document.getElementById("t17").innerText=JSON.stringify(result);
-}
-
-function task18(){
-const cart=[500,1200,800,1500];
-const total=cart.reduce((s,p)=>s+p,0);
-document.getElementById("t18").innerText=total;
-}
-
-function task19(){
-const prices=[1200,800,1500,2000];
-const discounted=prices.map(p=>p*0.9);
-document.getElementById("t19").innerText=JSON.stringify(discounted);
-}
-
-function task20(){
-const marks=[35,67,48,90,55,30];
-const result=marks.filter(m=>m>50);
-document.getElementById("t20").innerText=JSON.stringify(result);
-}
-</script>
+<script src="StudentGradeProcessing.js"></script>
+<script src="OnlineOrderFiltering(filter).js"></script>
+<script src="ShoppingCartTotal(reduce).js"></script>
+<script src="ECommerceUpdate(map).js"></script>
+<script src="PassStudentsOnly.js"></script>
 
 </body>
 </html>
