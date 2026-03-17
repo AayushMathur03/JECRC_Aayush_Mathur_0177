@@ -1,0 +1,27 @@
+.title{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+  color: #2c3e50;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 300px;
+  padding: 20px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover{
+  transform: translateY(-5px);
+}
