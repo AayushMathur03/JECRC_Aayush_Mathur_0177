@@ -1,2 +1,14 @@
-<h2>Product Component</h2>
-<p>This is product section</p>
+<!-- <h2>Product Component</h2>
+<p>This is product section</p> -->
+
+
+<h1> {{ title}}</h1>
+<h2> User List</h2>
+<p> User: {{ user.name }} , Age : {{ user.age }} </p>
+<p>{{getgreeting()}}</p>
+<p> {{5+5}}</p>
+
+<ul>
+    <li *ngFor="let user of users">
+        {{ user}}
+</ul>

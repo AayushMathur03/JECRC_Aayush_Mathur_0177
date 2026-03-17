@@ -1,0 +1,40 @@
+<div class="container">
+
+<h2>Doctor Appointment Booking</h2>
+
+<label>Patient Name</label>
+<input type="text" [(ngModel)]="patientName">
+
+<label>Select Doctor</label>
+<select [(ngModel)]="doctor">
+  <option value="">--Select--</option>
+  <option *ngFor="let d of doctors">{{d}}</option>
+</select>
+
+<label>Appointment Date</label>
+<input type="date" [(ngModel)]="date" [min]="getTodayDate()">
+
+<label>Consultation Type</label>
+
+<div>
+  <input type="radio" value="Online" [(ngModel)]="consultationType" (change)="calculateFee()"> Online
+  <input type="radio" value="Offline" [(ngModel)]="consultationType" (change)="calculateFee()"> Offline
+</div>
+
+<label>Symptoms</label>
+<textarea [(ngModel)]="symptoms"></textarea>
+
+<button (click)="bookAppointment()">Book Appointment</button>
+
+<h3>Live Summary</h3>
+
+<p>Name: {{patientName}}</p>
+<p>Doctor: {{doctor}}</p>
+<p>Date: {{date}}</p>
+<p>Consultation: {{consultationType}}</p>
+<p>Fee: ₹{{fee}}</p>
+<p>Symptoms: {{symptoms}}</p>
+
+<h2 class="success">{{message}}</h2>
+
+</div>
