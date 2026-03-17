@@ -1,59 +1,99 @@
-# HospitalAppointmnetSystem
+# 🏥 Angular Assessment — Hospital Appointment Booking System
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.2.
+## ❓ Question
 
-## Development server
+Build a **Doctor Appointment Booking System** in Angular with the following features:
 
-To start a local development server, run:
+### 📌 Features
 
-```bash
-ng serve
+* Patient Name (Text Input)
+* Doctor Selection (Dropdown)
+* Appointment Date
+* Consultation Type (Online / Offline)
+* Symptoms (Textarea)
+
+### 🧠 Logic
+
+* Consultation Fee:
+
+  * Online → ₹300
+  * Offline → ₹500
+* Show **Live Appointment Summary**
+
+### ⭐ Bonus
+
+* Disable past dates
+* Show confirmation message after booking
+
+---
+
+## 🎯 Objective
+
+Create a functional Angular UI where users can fill appointment details and see real-time updates along with proper validation and confirmation.
+
+---
+
+## 🧠 Core Angular Concepts Used
+
+* Standalone Components
+* Component Selector Rendering
+* Root Component Bootstrapping
+* Template Driven Forms (`ngModel`)
+* Event Binding
+* Property Binding
+* Structural Directive `*ngFor`
+* Angular SPA Rendering Flow
+
+---
+
+## 🏗️ Application Architecture
+
+```text
+index.html
+   ↓
+main.ts → bootstrapApplication(AppComponent)
+   ↓
+AppComponent (Root)
+   ↓
+AppointmentComponent (Feature UI)
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## ⚙️ Consultation Fee Logic
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+| Consultation Type | Fee  |
+| ----------------- | ---- |
+| Online            | ₹300 |
+| Offline           | ₹500 |
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🚫 Validation Rule
 
-```bash
-ng generate --help
-```
+Past appointment dates must not be selectable.
 
-## Building
+---
 
-To build the project run:
+## 🚀 Expected Outcome
 
-```bash
-ng build
-```
+* Clean appointment form UI
+* Dynamic fee calculation
+* Live summary preview
+* Confirmation message display
+* Proper Angular component wiring
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+## 📚 Learning Outcome
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+This task helps understand:
 
-```bash
-ng test
-```
+* Angular SPA startup flow
+* Component hierarchy
+* Selector usage
+* Form data binding
+* Dynamic template rendering
+* Basic validation handling
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
