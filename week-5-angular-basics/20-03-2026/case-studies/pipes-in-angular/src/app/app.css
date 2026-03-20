@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap');
+
+:root {
+  --bg: #f7f6f3;
+  --surface: #ffffff;
+  --border: #e8e4dd;
+  --text: #1a1916;
+  --muted: #8a8680;
+  --accent: #c9631a;
+  --tag-bg: #f0ede8;
+  --mono: 'DM Mono', monospace;
+  --sans: 'DM Sans', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-weight: 300;
+  min-height: 100vh;
+  padding: 48px 24px;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ── Page Header ── */
+
+.page-title {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+h1 {
+  font-family: var(--sans);
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 48px;
+  letter-spacing: -0.02em;
+}
+
+/* ── Section ── */
+
+.section {
+  margin-bottom: 36px;
+}
+
+.section-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: #fdf0e8;
+  border: 1px solid #f2d8c2;
+  border-radius: 4px;
+  padding: 3px 8px;
+  margin-bottom: 14px;
+}
+
+.section-label::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: 0.7;
+}
+
+/* ── Card ── */
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px 24px;
+}
+
+/* ── Date Pipe ── */
+
+.date-value {
+  font-family: var(--mono);
+  font-size: 15px;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+/* ── Async Pipe / Order List ── */
+
+.order-item {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.order-item:first-child { padding-top: 0; }
+.order-item:last-child  { border-bottom: none; padding-bottom: 0; }
+
+.order-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.order-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px 16px;
+}
+
+.order-meta-row {
+  font-size: 12px;
+  color: var(--muted);
+  display: flex;
+  gap: 5px;
+}
+
+.order-meta-row span:first-child {
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+
+.order-meta-row span:last-child {
+  color: var(--text);
+  font-weight: 400;
+}
+
+.status-badge {
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 3px;
+  background: #e8f5ee;
+  color: #2d7a4f;
+}
+
+/* ── KeyValue Pipe ── */
+
+.kv-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.kv-item {
+  background: var(--tag-bg);
+  border-radius: 7px;
+  padding: 12px 14px;
+}
+
+.kv-key {
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+
+.kv-value {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text);
+}
+
+.kv-value.is-price {
+  font-family: var(--mono);
+  font-size: 14px;
+  color: var(--accent);
+}
+
+/* ── Custom Pipe / Currency ── */
+
+.currency-display {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+}
+
+.currency-symbol {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 300;
+}
+
+.currency-amount {
+  font-family: var(--mono);
+  font-size: 26px;
+  font-weight: 500;
+  color: var(--text);
+  letter-spacing: -0.03em;
+}
+
+.currency-sub {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+/* ── Divider ── */
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 0 0 36px;
+}

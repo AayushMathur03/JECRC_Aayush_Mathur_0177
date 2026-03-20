@@ -1,0 +1,39 @@
+<div class="container">
+  <header>
+    <h1>🔄 Angular Lifecycle Hooks Demo</h1>
+    <p class="subtitle">Understanding Component Lifecycle with Real-time Logging</p>
+  </header>
+
+  <section class="info-section">
+    <h3>📚 What This Demo Shows:</h3>
+    <ul>
+      <li><strong>ngOnChanges:</strong> Triggered when input properties change (click "Update Status")</li>
+      <li><strong>ngOnInit:</strong> Called once during component initialization</li>
+      <li><strong>ngDoCheck:</strong> Runs on every change detection cycle</li>
+      <li><strong>ngAfterContentInit/Checked:</strong> Content projection lifecycle</li>
+      <li><strong>ngAfterViewInit/Checked:</strong> View initialization and checking</li>
+      <li><strong>ngOnDestroy:</strong> Cleanup before component destruction (click "Toggle Child")</li>
+    </ul>
+  </section>
+
+  <section class="demo-section">
+    <h3>🎯 Interactive Demo:</h3>
+    <div class="instructions">
+      <p><strong>Try these actions:</strong></p>
+      <ul>
+        <li><code>Update Status</code> - Changes input data and triggers <strong>ngOnChanges</strong></li>
+        <li><code>Toggle Child</code> - Destroys/recreates component, triggering <strong>ngOnDestroy</strong> and <strong>ngOnInit</strong></li>
+      </ul>
+    </div>
+
+    <div class="parent-container">
+      <app-order-parent></app-order-parent>
+    </div>
+  </section>
+
+  <footer>
+    <p>💡 Open browser console to see additional lifecycle hook details</p>
+  </footer>
+</div>
+
+<router-outlet />

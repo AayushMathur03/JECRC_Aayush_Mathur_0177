@@ -1,0 +1,24 @@
+<div class="app-container">
+  <header>
+    <h1>E-Commerce System</h1>
+    <nav>
+      <button (click)="navigateTo('products')" [class.active]="currentView() === 'products'">Products</button>
+      <button (click)="navigateTo('cart')" [class.active]="currentView() === 'cart'">
+        Cart @if (cartCount() > 0) { ({{ cartCount() }}) }
+      </button>
+      <button (click)="navigateTo('checkout')" [class.active]="currentView() === 'checkout'">Checkout</button>
+    </nav>
+  </header>
+
+  <main>
+    @if (currentView() === 'products') {
+      <app-product />
+    }
+    @if (currentView() === 'cart') {
+      <app-cart (proceedToCheckout)="onProceedToCheckout()" />
+    }
+    @if (currentView() === 'checkout') {
+      <app-checkout />
+    }
+  </main>
+</div>

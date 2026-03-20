@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Angular Pipes Demo</title>
+  <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+  <div class="wrapper">
+
+    <p class="page-title">Angular</p>
+    <h1>Pipes Demo</h1>
+
+    <!-- Date Pipe -->
+    <div class="section">
+      <div class="section-label">Date Pipe</div>
+      <div class="card">
+        <p class="date-value">{{ today | date:'fullDate' }}</p>
+      </div>
+    </div>
+
+    <!-- Async Pipe -->
+    <div class="section">
+      <div class="section-label">Async Pipe</div>
+      <div class="card">
+        <div *ngFor="let order of data$ | async" class="order-item">
+          <p class="order-name">{{ order.productName }}</p>
+          <div class="order-meta">
+            <div class="order-meta-row">
+              <span>Customer</span>
+              <span>{{ order.productName }}</span>
+            </div>
+            <div class="order-meta-row">
+              <span>Price</span>
+              <span>{{ order.price }}</span>
+            </div>
+            <div class="order-meta-row" style="grid-column: span 2;">
+              <span>Status</span>
+              <span><span class="status-badge">{{ order.status }}</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- KeyValue Pipe -->
+    <div class="section">
+      <div class="section-label">KeyValue Pipe</div>
+      <div class="card">
+        <div class="kv-grid">
+          <div *ngFor="let item of product | keyvalue" class="kv-item">
+            <p class="kv-key">{{ item.key | uppercase }}</p>
+            <p class="kv-value" [class.is-price]="item.key === 'price'">{{ item.value }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Custom Pipe -->
+    <div class="section">
+      <div class="section-label">Custom Pipe</div>
+      <div class="card">
+        <div class="currency-display">
+          <span class="currency-symbol">$</span>
+          <span class="currency-amount">{{ product.price | customCurrency }}</span>
+        </div>
+        <p class="currency-sub">Formatted via customCurrency pipe</p>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

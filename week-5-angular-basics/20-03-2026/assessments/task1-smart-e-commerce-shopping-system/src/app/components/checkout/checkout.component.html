@@ -1,0 +1,234 @@
+<div class="checkout-container">
+  <h2>Checkout</h2>
+
+  @if (cartItems().length === 0) {
+    <p>Your cart is empty.</p>
+  } @else {
+    <form (ngSubmit)="placeOrder()">
+      <section class="form-section">
+        <h3>Customer Details</h3>
+
+        <div class="form-group">
+          <label>Full Name *</label>
+          <input type="text" [(ngModel)]="fullName" name="fullName" required />
+        </div>
+
+        <div class="form-group">
+          <label>Email *</label>
+          <input type="email" [(ngModel)]="email" name="email" required />
+          @if (emailError()) {
+            <span class="error-message">{{ emailError() }}</span>
+          }
+        </div>
+
+        <div class="form-group">
+          <label>Phone *</label>
+          <input type="tel" [(ngModel)]="phone" name="phone" required />
+          @if (phoneError()) {
+            <span class="error-message">{{ phoneError() }}</span>
+          }
+        </div>
+
+        <div class="form-group">
+          <label>Gender *</label>
+          <div class="radio-group">
+            <label class="radio-label">
+              <input type="radio" name="gender" value="male" [(ngModel)]="gender" />Male
+            </label>
+            <label class="radio-label">
+              <input type="radio" name="gender" value="female" [(ngModel)]="gender" />Female
+            </label>
+            <label class="radio-label">
+              <input type="radio" name="gender" value="other" [(ngModel)]="gender" />Other
+            </label>
+          </div>
+        </div>
+      </section>
+
+      <section class="form-section">
+        <div class="section-header">
+          <h3>Addresses</h3>
+          <button type="button" class="add-btn" (click)="addAddress()">Add</button>
+        </div>
+
+        @for (address of addresses(); track $index) {
+          <div class="dynamic-item">
+            @if (addresses().length > 1) {
+              <button type="button" class="remove-btn-small" (click)="removeAddress($index)">Remove</button>
+            }
+
+            <div class="form-group">
+              <label>Address *</label>
+              <input
+                type="text"
+                [value]="address.addressLine"
+                (input)="updateAddress($index, 'addressLine', $any($event.target).value)"
+                required
+              />
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>City *</label>
+                <select [value]="address.city" (change)="updateAddress($index, 'city', $any($event.target).value)" required>
+                  <option value="">Select</option>
+                  @for (city of cities; track city) {
+                    <option [value]="city">{{ city }}</option>
+                  }
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label>State *</label>
+                <select [value]="address.state" (change)="updateAddress($index, 'state', $any($event.target).value)" required>
+                  <option value="">Select</option>
+                  @for (state of states; track state) {
+                    <option [value]="state">{{ state }}</option>
+                  }
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>Country *</label>
+                <select [value]="address.country" (change)="updateAddress($index, 'country', $any($event.target).value)" required>
+                  <option value="">Select</option>
+                  @for (country of countries; track country) {
+                    <option [value]="country">{{ country }}</option>
+                  }
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label>ZIP *</label>
+                <input type="text" [value]="address.zipCode" (input)="updateAddress($index, 'zipCode', $any($event.target).value)" required />
+              </div>
+            </div>
+          </div>
+        }
+      </section>
+
+      <section class="form-section">
+        <h3>Delivery</h3>
+
+        <div class="form-group">
+          <label>Type *</label>
+          <div class="radio-group">
+            <label class="radio-label">
+              <input type="radio" name="deliveryType" value="standard" [(ngModel)]="deliveryType" />Standard
+            </label>
+            <label class="radio-label">
+              <input type="radio" name="deliveryType" value="express" [(ngModel)]="deliveryType" />Express
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Date *</label>
+          <input type="date" [(ngModel)]="deliveryDate" name="deliveryDate" [min]="deliveryDate()" required />
+        </div>
+
+        <div class="form-group">
+          <label>Instructions</label>
+          <textarea [(ngModel)]="additionalInstructions" name="instructions" rows="3"></textarea>
+        </div>
+      </section>
+
+      <section class="form-section">
+        <div class="section-header">
+          <h3>Payment</h3>
+          <button type="button" class="add-btn" (click)="addPaymentMethod()">Add</button>
+        </div>
+
+        @for (method of paymentMethods(); track $index) {
+          @if (currentPaymentIndex() === $index) {
+            <div class="dynamic-item">
+              @if (paymentMethods().length > 1) {
+                <button type="button" class="remove-btn-small" (click)="removePaymentMethod($index)">Remove</button>
+              }
+
+              <div class="form-group">
+                <label>Type *</label>
+                <div class="radio-group">
+                  <label class="radio-label">
+                    <input type="radio" [name]="'pay' + $index" value="credit" [checked]="method.type === 'credit'" (change)="onPaymentTypeChange('credit')" />Credit Card
+                  </label>
+                  <label class="radio-label">
+                    <input type="radio" [name]="'pay' + $index" value="debit" [checked]="method.type === 'debit'" (change)="onPaymentTypeChange('debit')" />Debit Card
+                  </label>
+                  <label class="radio-label">
+                    <input type="radio" [name]="'pay' + $index" value="upi" [checked]="method.type === 'upi'" (change)="onPaymentTypeChange('upi')" />UPI
+                  </label>
+                  <label class="radio-label">
+                    <input type="radio" [name]="'pay' + $index" value="cod" [checked]="method.type === 'cod'" (change)="onPaymentTypeChange('cod')" />COD
+                  </label>
+                </div>
+              </div>
+
+              @if (method.type === 'credit' || method.type === 'debit') {
+                <div class="form-group">
+                  <label>Card Number *</label>
+                  <input type="text" [value]="method.cardNumber || ''" (input)="updatePaymentMethod($index, 'cardNumber', $any($event.target).value)" maxlength="16" />
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label>Expiry *</label>
+                    <input type="month" [value]="method.expiryDate || ''" (input)="updatePaymentMethod($index, 'expiryDate', $any($event.target).value)" />
+                  </div>
+
+                  <div class="form-group">
+                    <label>CVV *</label>
+                    <input type="password" [value]="method.cvv || ''" (input)="updatePaymentMethod($index, 'cvv', $any($event.target).value)" maxlength="3" />
+                  </div>
+                </div>
+              }
+
+              @if (method.type === 'upi') {
+                <div class="form-group">
+                  <label>UPI ID *</label>
+                  <input type="text" [value]="method.upiId || ''" (input)="updatePaymentMethod($index, 'upiId', $any($event.target).value)" />
+                </div>
+              }
+
+              @if (method.type === 'cod') {
+                <p>Pay cash on delivery.</p>
+              }
+            </div>
+          }
+        }
+      </section>
+
+      <section class="form-section">
+        <h3>Other</h3>
+
+        <div class="form-group">
+          <label>ID Proof</label>
+          <input type="file" (change)="onFileChange($event)" accept=".pdf,.jpg,.jpeg,.png" />
+          @if (idProof()) {
+            <p>{{ idProof()!.name }}</p>
+          }
+        </div>
+
+        <div class="form-group">
+          <label class="checkbox-label">
+            <input type="checkbox" [(ngModel)]="acceptTerms" name="terms" required />Accept Terms *
+          </label>
+        </div>
+
+        <div class="form-group">
+          <label class="checkbox-label">
+            <input type="checkbox" [(ngModel)]="subscribeOffers" name="offers" />Subscribe
+          </label>
+        </div>
+      </section>
+
+      <p>Total: ${{ cartTotal() }}</p>
+      <button type="submit" class="place-order-btn" [disabled]="!isFormValid()">Place Order</button>
+      @if (!isFormValid()) {
+        <p class="validation-message">Fill required fields</p>
+      }
+    </form>
+  }
+</div>
