@@ -11,8 +11,6 @@ import {
   ViewChild,
 } from '@angular/core';
 
-
-
 @Component({
   selector: 'app-rxjs-demo',
   standalone: true,
