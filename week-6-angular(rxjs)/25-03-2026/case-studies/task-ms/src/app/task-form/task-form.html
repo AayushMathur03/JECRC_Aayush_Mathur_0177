@@ -1,0 +1,73 @@
+<div class="form-card" [class.edit-mode]="isEditMode">
+  <div class="form-header">
+    <div class="form-icon">
+      <span *ngIf="!isEditMode">✦</span>
+      <span *ngIf="isEditMode">✎</span>
+    </div>
+    <div class="form-title-block">
+      <h2 class="form-title">{{ isEditMode ? 'Edit Task' : 'New Task' }}</h2>
+      <p class="form-subtitle">
+        {{ isEditMode ? 'Modify task #' + task.id : 'Add a task to your board' }}
+      </p>
+    </div>
+    <button *ngIf="isEditMode" class="cancel-btn" (click)="cancelEdit()">
+      ✕
+    </button>
+  </div>
+
+  <form (ngSubmit)="onSubmit()" #taskForm="ngForm" class="task-form" novalidate>
+
+    <div class="field-group">
+      <label for="taskTitle" class="field-label">Task Title</label>
+      <input
+        id="taskTitle"
+        type="text"
+        class="field-input"
+        [(ngModel)]="task.title"
+        name="title"
+        placeholder="What needs to be done?"
+        autocomplete="off"
+        [disabled]="isLoading"
+      />
+    </div>
+
+    <div class="field-group toggle-group" *ngIf="isEditMode">
+      <label class="field-label">Status</label>
+      <label class="toggle-switch">
+        <input
+          type="checkbox"
+          [(ngModel)]="task.completed"
+          name="completed"
+          [disabled]="isLoading"
+        />
+        <span class="toggle-track">
+          <span class="toggle-thumb"></span>
+        </span>
+        <span class="toggle-label">{{ task.completed ? 'Completed' : 'Pending' }}</span>
+      </label>
+    </div>
+
+    <div class="alert alert-success" *ngIf="successMessage">
+      <span class="alert-icon">✓</span> {{ successMessage }}
+    </div>
+
+    <div class="alert alert-error" *ngIf="errorMessage">
+      <span class="alert-icon">!</span> {{ errorMessage }}
+    </div>
+
+    <div class="form-actions">
+      <button
+        type="submit"
+        class="submit-btn"
+        [class.loading]="isLoading"
+        [disabled]="isLoading"
+      >
+        <span class="btn-text" *ngIf="!isLoading">
+          {{ isEditMode ? 'Save Changes' : 'Add Task' }}
+        </span>
+        <span class="btn-loader" *ngIf="isLoading"></span>
+      </button>
+    </div>
+
+  </form>
+</div>
