@@ -1,0 +1,6 @@
+@HackerBank.API_HostAddress = http://localhost:5241
+
+GET {{HackerBank.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
