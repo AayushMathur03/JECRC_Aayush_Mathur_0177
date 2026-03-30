@@ -1,12 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-// import './components/Counter.js';
 import Counter from './components/Counter.js';
+import StateVsPropsDemo from './components/StateVsPropsDemo.js';
+import TemperatureConverter from './components/TemperatureConverter.js';
 
 function App() {
   return (
     <div className="App">
-      <Counter/>
+      {/* <Counter/> */}
+      {/* <StateVsPropsDemo></StateVsPropsDemo> */}
+      <TemperatureConverter></TemperatureConverter>
     </div>
   )
 }
