@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HackerBank.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8210cee99742ed9ad452a106afaede6678a53dc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e8a6bf28b0151a4c97401f82c29b2d820f14bff")]
 [assembly: System.Reflection.AssemblyProductAttribute("HackerBank.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HackerBank.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
