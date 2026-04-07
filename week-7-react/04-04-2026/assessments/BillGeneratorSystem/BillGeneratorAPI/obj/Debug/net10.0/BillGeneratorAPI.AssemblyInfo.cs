@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BillGeneratorAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a44d94682c6bb8bdacd2a0b98dd5f931492bc7b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5af8fa25ec4ad175fbf6622552782ea40c590e8c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BillGeneratorAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BillGeneratorAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
