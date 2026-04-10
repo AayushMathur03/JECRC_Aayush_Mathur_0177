@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dotnet\\day-9\\employee-test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB4B49DB-50A1-4E8E-93BB-5E480994EA19}|employee-test.csproj|c:\\dotnet\\day-9\\employee-test\\models\\dtos\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB4B49DB-50A1-4E8E-93BB-5E480994EA19}|employee-test.csproj|solutionrelative:models\\dtos\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\dotnet\\day-9\\employee-test\\models\\dtos\\Class.cs",
+              "RelativeDocumentMoniker": "models\\dtos\\Class.cs",
+              "ToolTip": "C:\\dotnet\\day-9\\employee-test\\models\\dtos\\Class.cs",
+              "RelativeToolTip": "models\\dtos\\Class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T09:32:54.084Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
