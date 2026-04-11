@@ -1,3 +1,5 @@
+using EmployeePortal_BE.models.dto;
+
 namespace EmployeePortal.Models.Entities
 {
     public class Employees
@@ -9,6 +11,6 @@ namespace EmployeePortal.Models.Entities
         public required string Password { get; set; }
         public required string Phone { get; set; }
         public Decimal Salary { get; set; }
-        public string? Address { get; set; }
+        public AddressDto? Address { get; set; }
     }
 }

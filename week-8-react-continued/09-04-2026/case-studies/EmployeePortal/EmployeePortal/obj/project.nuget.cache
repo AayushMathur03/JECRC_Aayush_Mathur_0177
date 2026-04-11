@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JRyWOgFmsRU=",
+  "dgSpecHash": "OyQkkOhqLqc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mathu\\Downloads\\EmployeePortal\\EmployeePortal\\EmployeePortal.csproj",
+  "projectFilePath": "C:\\dotnet\\week-8-react-continued\\09-04-2026\\case-studies\\EmployeePortal\\EmployeePortal\\EmployeePortal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mathu\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\mathu\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
@@ -16,9 +16,9 @@
       "code": "NU1603",
       "level": "Warning",
       "message": "EmployeePortal depends on Swashbuckle.AspNetCore (>= 6.4.6) but Swashbuckle.AspNetCore 6.4.6 was not found. Swashbuckle.AspNetCore 6.5.0 was resolved instead.",
-      "projectPath": "C:\\Users\\mathu\\Downloads\\EmployeePortal\\EmployeePortal\\EmployeePortal.csproj",
+      "projectPath": "C:\\dotnet\\week-8-react-continued\\09-04-2026\\case-studies\\EmployeePortal\\EmployeePortal\\EmployeePortal.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\mathu\\Downloads\\EmployeePortal\\EmployeePortal\\EmployeePortal.csproj",
+      "filePath": "C:\\dotnet\\week-8-react-continued\\09-04-2026\\case-studies\\EmployeePortal\\EmployeePortal\\EmployeePortal.csproj",
       "libraryId": "Swashbuckle.AspNetCore",
       "targetGraphs": [
         "net10.0"

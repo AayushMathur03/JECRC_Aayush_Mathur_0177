@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using EmployeePortal.models.attributes;
+using EmployeePortal_BE.models.dto;
 
 namespace EmployeePortal.models.dto
 {
@@ -36,7 +37,7 @@ namespace EmployeePortal.models.dto
        
 
         [StringLength(50)]
-        public string address { get; set; }
+        public AddressDto? address { get; set; }
 
         [Required]
         [Range(18, 60)]

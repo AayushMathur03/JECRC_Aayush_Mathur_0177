@@ -67,3 +67,15 @@ C:\Users\mathu\Downloads\EmployeePortal\EmployeePortal\obj\Debug\net10.0\refint\
 C:\Users\mathu\Downloads\EmployeePortal\EmployeePortal\obj\Debug\net10.0\EmployeePortal.pdb
 C:\Users\mathu\Downloads\EmployeePortal\EmployeePortal\obj\Debug\net10.0\EmployeePortal.genruntimeconfig.cache
 C:\Users\mathu\Downloads\EmployeePortal\EmployeePortal\obj\Debug\net10.0\ref\EmployeePortal.dll
+C:\dotnet\week-8-react-continued\09-04-2026\case-studies\EmployeePortal\EmployeePortal\obj\Debug\net10.0\EmployeePortal.csproj.AssemblyReference.cache
+C:\dotnet\week-8-react-continued\09-04-2026\case-studies\EmployeePortal\EmployeePortal\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\dotnet\week-8-react-continued\09-04-2026\case-studies\EmployeePortal\EmployeePortal\obj\Debug\net10.0\EmployeePortal.GeneratedMSBuildEditorConfig.editorconfig
+C:\dotnet\week-8-react-continued\09-04-2026\case-studies\EmployeePortal\EmployeePortal\obj\Debug\net10.0\EmployeePortal.AssemblyInfoInputs.cache
+C:\dotnet\week-8-react-continued\09-04-2026\case-studies\EmployeePortal\EmployeePortal\obj\Debug\net10.0\EmployeePortal.AssemblyInfo.cs
+C:\dotnet\week-8-react-continued\09-04-2026\case-studies\EmployeePortal\EmployeePortal\obj\Debug\net10.0\EmployeePortal.csproj.CoreCompileInputs.cache
+C:\dotnet\week-8-react-continued\09-04-2026\case-studies\EmployeePortal\EmployeePortal\obj\Debug\net10.0\EmployeePortal.MvcApplicationPartsAssemblyInfo.cs
+C:\dotnet\week-8-react-continued\09-04-2026\case-studies\EmployeePortal\EmployeePortal\obj\Debug\net10.0\EmployeePortal.MvcApplicationPartsAssemblyInfo.cache
+C:\dotnet\week-8-react-continued\09-04-2026\case-studies\EmployeePortal\EmployeePortal\obj\Debug\net10.0\EmployeePortal.sourcelink.json
+C:\dotnet\week-8-react-continued\09-04-2026\case-studies\EmployeePortal\EmployeePortal\obj\Debug\net10.0\EmployeePortal.dll
+C:\dotnet\week-8-react-continued\09-04-2026\case-studies\EmployeePortal\EmployeePortal\obj\Debug\net10.0\refint\EmployeePortal.dll
+C:\dotnet\week-8-react-continued\09-04-2026\case-studies\EmployeePortal\EmployeePortal\obj\Debug\net10.0\EmployeePortal.pdb

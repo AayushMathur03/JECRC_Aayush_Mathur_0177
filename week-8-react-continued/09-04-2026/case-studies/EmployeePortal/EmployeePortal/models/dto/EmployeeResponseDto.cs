@@ -1,3 +1,5 @@
+using EmployeePortal_BE.models.dto;
+
 namespace EmployeePortal.models.dto
 {
     public class EmployeeResponseDto
@@ -8,7 +10,7 @@ namespace EmployeePortal.models.dto
         public string Email { get; set; }
         public string Phone { get; set; }
         public decimal Salary { get; set; }
-        public string? Address { get; set; }
+        public AddressDto? Address { get; set; }
     }
 }
 

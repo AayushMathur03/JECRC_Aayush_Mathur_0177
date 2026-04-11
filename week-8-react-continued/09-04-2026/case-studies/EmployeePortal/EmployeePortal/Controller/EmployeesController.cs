@@ -23,7 +23,7 @@ namespace EmployeePortal.Controllers
                     Email = "john.doe@example.com",
                     Phone = "123-456-7890",
                     Salary = 50000,
-                    Address = "123 Main St",
+                    // Address = "123 Main St",
                     Password = "defaultPassword"
                 });
             }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mathu\\Downloads\\EmployeePortal\\EmployeePortal\\EmployeePortal.csproj": {}
+    "C:\\dotnet\\week-8-react-continued\\09-04-2026\\case-studies\\EmployeePortal\\EmployeePortal\\EmployeePortal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mathu\\Downloads\\EmployeePortal\\EmployeePortal\\EmployeePortal.csproj": {
+    "C:\\dotnet\\week-8-react-continued\\09-04-2026\\case-studies\\EmployeePortal\\EmployeePortal\\EmployeePortal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathu\\Downloads\\EmployeePortal\\EmployeePortal\\EmployeePortal.csproj",
+        "projectUniqueName": "C:\\dotnet\\week-8-react-continued\\09-04-2026\\case-studies\\EmployeePortal\\EmployeePortal\\EmployeePortal.csproj",
         "projectName": "EmployeePortal",
-        "projectPath": "C:\\Users\\mathu\\Downloads\\EmployeePortal\\EmployeePortal\\EmployeePortal.csproj",
+        "projectPath": "C:\\dotnet\\week-8-react-continued\\09-04-2026\\case-studies\\EmployeePortal\\EmployeePortal\\EmployeePortal.csproj",
         "packagesPath": "C:\\Users\\mathu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathu\\Downloads\\EmployeePortal\\EmployeePortal\\obj\\",
+        "outputPath": "C:\\dotnet\\week-8-react-continued\\09-04-2026\\case-studies\\EmployeePortal\\EmployeePortal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
