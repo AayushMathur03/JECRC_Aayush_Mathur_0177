@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\05-05-2026\\Case-Studies\\WelcomePage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{465B400E-D190-4F99-B5BA-3DEF600FE1CC}|WelcomePage.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-12-ci-cd\\05-05-2026\\case-studies\\welcomepage\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{465B400E-D190-4F99-B5BA-3DEF600FE1CC}|WelcomePage.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\05-05-2026\\Case-Studies\\WelcomePage\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\05-05-2026\\Case-Studies\\WelcomePage\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T05:58:52.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
