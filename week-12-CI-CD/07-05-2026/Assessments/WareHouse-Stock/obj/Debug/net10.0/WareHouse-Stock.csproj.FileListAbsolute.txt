@@ -1,0 +1,15 @@
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\WareHouse-Stock\bin\Debug\net10.0\WareHouse-Stock.exe
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\WareHouse-Stock\bin\Debug\net10.0\WareHouse-Stock.deps.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\WareHouse-Stock\bin\Debug\net10.0\WareHouse-Stock.runtimeconfig.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\WareHouse-Stock\bin\Debug\net10.0\WareHouse-Stock.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\WareHouse-Stock\bin\Debug\net10.0\WareHouse-Stock.pdb
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\WareHouse-Stock\obj\Debug\net10.0\WareHouse-Stock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\WareHouse-Stock\obj\Debug\net10.0\WareHouse-Stock.AssemblyInfoInputs.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\WareHouse-Stock\obj\Debug\net10.0\WareHouse-Stock.AssemblyInfo.cs
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\WareHouse-Stock\obj\Debug\net10.0\WareHouse-Stock.csproj.CoreCompileInputs.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\WareHouse-Stock\obj\Debug\net10.0\WareHouse-Stock.sourcelink.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\WareHouse-Stock\obj\Debug\net10.0\WareHouse-Stock.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\WareHouse-Stock\obj\Debug\net10.0\refint\WareHouse-Stock.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\WareHouse-Stock\obj\Debug\net10.0\WareHouse-Stock.pdb
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\WareHouse-Stock\obj\Debug\net10.0\WareHouse-Stock.genruntimeconfig.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\WareHouse-Stock\obj\Debug\net10.0\ref\WareHouse-Stock.dll
