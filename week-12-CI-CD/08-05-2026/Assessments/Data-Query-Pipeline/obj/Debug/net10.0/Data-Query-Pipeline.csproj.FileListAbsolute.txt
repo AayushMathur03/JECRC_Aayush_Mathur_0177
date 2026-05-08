@@ -1,0 +1,15 @@
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\bin\Debug\net10.0\Data-Query-Pipeline.exe
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\bin\Debug\net10.0\Data-Query-Pipeline.deps.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\bin\Debug\net10.0\Data-Query-Pipeline.runtimeconfig.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\bin\Debug\net10.0\Data-Query-Pipeline.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\bin\Debug\net10.0\Data-Query-Pipeline.pdb
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.AssemblyInfoInputs.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.AssemblyInfo.cs
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.csproj.CoreCompileInputs.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.sourcelink.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\refint\Data-Query-Pipeline.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.pdb
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.genruntimeconfig.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\ref\Data-Query-Pipeline.dll
