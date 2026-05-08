@@ -1,0 +1,15 @@
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sequence-Pattern\bin\Debug\net10.0\Sequence-Pattern.exe
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sequence-Pattern\bin\Debug\net10.0\Sequence-Pattern.deps.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sequence-Pattern\bin\Debug\net10.0\Sequence-Pattern.runtimeconfig.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sequence-Pattern\bin\Debug\net10.0\Sequence-Pattern.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sequence-Pattern\bin\Debug\net10.0\Sequence-Pattern.pdb
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sequence-Pattern\obj\Debug\net10.0\Sequence-Pattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sequence-Pattern\obj\Debug\net10.0\Sequence-Pattern.AssemblyInfoInputs.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sequence-Pattern\obj\Debug\net10.0\Sequence-Pattern.AssemblyInfo.cs
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sequence-Pattern\obj\Debug\net10.0\Sequence-Pattern.csproj.CoreCompileInputs.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sequence-Pattern\obj\Debug\net10.0\Sequence-Pattern.sourcelink.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sequence-Pattern\obj\Debug\net10.0\Sequence-Pattern.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sequence-Pattern\obj\Debug\net10.0\refint\Sequence-Pattern.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sequence-Pattern\obj\Debug\net10.0\Sequence-Pattern.pdb
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sequence-Pattern\obj\Debug\net10.0\Sequence-Pattern.genruntimeconfig.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sequence-Pattern\obj\Debug\net10.0\ref\Sequence-Pattern.dll

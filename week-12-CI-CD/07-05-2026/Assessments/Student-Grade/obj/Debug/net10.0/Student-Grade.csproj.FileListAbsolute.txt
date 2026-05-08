@@ -1,0 +1,15 @@
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Student-Grade\bin\Debug\net10.0\Student-Grade.exe
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Student-Grade\bin\Debug\net10.0\Student-Grade.deps.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Student-Grade\bin\Debug\net10.0\Student-Grade.runtimeconfig.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Student-Grade\bin\Debug\net10.0\Student-Grade.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Student-Grade\bin\Debug\net10.0\Student-Grade.pdb
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Student-Grade\obj\Debug\net10.0\Student-Grade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Student-Grade\obj\Debug\net10.0\Student-Grade.AssemblyInfoInputs.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Student-Grade\obj\Debug\net10.0\Student-Grade.AssemblyInfo.cs
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Student-Grade\obj\Debug\net10.0\Student-Grade.csproj.CoreCompileInputs.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Student-Grade\obj\Debug\net10.0\Student-Grade.sourcelink.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Student-Grade\obj\Debug\net10.0\Student-Grade.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Student-Grade\obj\Debug\net10.0\refint\Student-Grade.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Student-Grade\obj\Debug\net10.0\Student-Grade.pdb
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Student-Grade\obj\Debug\net10.0\Student-Grade.genruntimeconfig.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Student-Grade\obj\Debug\net10.0\ref\Student-Grade.dll

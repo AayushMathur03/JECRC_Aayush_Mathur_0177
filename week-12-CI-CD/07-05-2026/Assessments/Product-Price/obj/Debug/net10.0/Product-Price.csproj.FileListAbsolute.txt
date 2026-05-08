@@ -1,0 +1,15 @@
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Product-Price\bin\Debug\net10.0\Product-Price.exe
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Product-Price\bin\Debug\net10.0\Product-Price.deps.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Product-Price\bin\Debug\net10.0\Product-Price.runtimeconfig.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Product-Price\bin\Debug\net10.0\Product-Price.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Product-Price\bin\Debug\net10.0\Product-Price.pdb
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Product-Price\obj\Debug\net10.0\Product-Price.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Product-Price\obj\Debug\net10.0\Product-Price.AssemblyInfoInputs.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Product-Price\obj\Debug\net10.0\Product-Price.AssemblyInfo.cs
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Product-Price\obj\Debug\net10.0\Product-Price.csproj.CoreCompileInputs.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Product-Price\obj\Debug\net10.0\Product-Price.sourcelink.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Product-Price\obj\Debug\net10.0\Product-Price.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Product-Price\obj\Debug\net10.0\refint\Product-Price.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Product-Price\obj\Debug\net10.0\Product-Price.pdb
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Product-Price\obj\Debug\net10.0\Product-Price.genruntimeconfig.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Product-Price\obj\Debug\net10.0\ref\Product-Price.dll

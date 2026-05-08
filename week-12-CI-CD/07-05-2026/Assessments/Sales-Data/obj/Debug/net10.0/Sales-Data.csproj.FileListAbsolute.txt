@@ -1,0 +1,15 @@
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sales-Data\bin\Debug\net10.0\Sales-Data.exe
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sales-Data\bin\Debug\net10.0\Sales-Data.deps.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sales-Data\bin\Debug\net10.0\Sales-Data.runtimeconfig.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sales-Data\bin\Debug\net10.0\Sales-Data.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sales-Data\bin\Debug\net10.0\Sales-Data.pdb
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sales-Data\obj\Debug\net10.0\Sales-Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sales-Data\obj\Debug\net10.0\Sales-Data.AssemblyInfoInputs.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sales-Data\obj\Debug\net10.0\Sales-Data.AssemblyInfo.cs
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sales-Data\obj\Debug\net10.0\Sales-Data.csproj.CoreCompileInputs.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sales-Data\obj\Debug\net10.0\Sales-Data.sourcelink.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sales-Data\obj\Debug\net10.0\Sales-Data.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sales-Data\obj\Debug\net10.0\refint\Sales-Data.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sales-Data\obj\Debug\net10.0\Sales-Data.pdb
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sales-Data\obj\Debug\net10.0\Sales-Data.genruntimeconfig.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\07-05-2026\Assessments\Sales-Data\obj\Debug\net10.0\ref\Sales-Data.dll
