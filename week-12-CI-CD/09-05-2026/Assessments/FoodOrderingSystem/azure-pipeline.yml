@@ -1,0 +1,47 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  buildConfiguration: 'Release'
+
+steps:
+
+# Install .NET 8 SDK
+- task: UseDotNet@2
+  displayName: 'Install .NET 8 SDK'
+  inputs:
+    packageType: 'sdk'
+    version: '8.0.x'
+
+# Restore NuGet packages
+- script: |
+    dotnet restore
+  displayName: 'Restore Packages'
+
+# Build solution
+- script: |
+    dotnet build FoodOrderingSystem.sln --configuration $(buildConfiguration) --no-restore
+  displayName: 'Build Solution'
+
+# Run tests (if available)
+- script: |
+    dotnet test FoodOrderingSystem.sln --configuration $(buildConfiguration) --no-build --verbosity normal
+  displayName: 'Run Tests'
+
+# Publish ASP.NET Core app
+- script: |
+    dotnet publish FoodOrdering.Web/FoodOrdering.Web.csproj \
+      --configuration $(buildConfiguration) \
+      --output $(Build.ArtifactStagingDirectory)
+  displayName: 'Publish Web Project'
+
+# Publish build artifacts
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Build Artifacts'
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'FoodOrderingApp'
+    publishLocation: 'Container'
