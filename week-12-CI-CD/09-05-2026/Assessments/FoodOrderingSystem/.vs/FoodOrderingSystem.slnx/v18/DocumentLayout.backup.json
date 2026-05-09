@@ -1,0 +1,366 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0BDC33-863C-BBB2-0892-5C782DCD4CB9}|FoodOrdering.Web\\FoodOrdering.Web.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-12-ci-cd\\09-05-2026\\assessments\\foodorderingsystem\\foodordering.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA0BDC33-863C-BBB2-0892-5C782DCD4CB9}|FoodOrdering.Web\\FoodOrdering.Web.csproj|solutionrelative:foodordering.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0BDC33-863C-BBB2-0892-5C782DCD4CB9}|FoodOrdering.Web\\FoodOrdering.Web.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-12-ci-cd\\09-05-2026\\assessments\\foodorderingsystem\\foodordering.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA0BDC33-863C-BBB2-0892-5C782DCD4CB9}|FoodOrdering.Web\\FoodOrdering.Web.csproj|solutionrelative:foodordering.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-12-ci-cd\\09-05-2026\\assessments\\foodorderingsystem\\foodordering.api\\foodordering.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|solutionrelative:foodordering.api\\foodordering.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0BDC33-863C-BBB2-0892-5C782DCD4CB9}|FoodOrdering.Web\\FoodOrdering.Web.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-12-ci-cd\\09-05-2026\\assessments\\foodorderingsystem\\foodordering.web\\foodordering.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BA0BDC33-863C-BBB2-0892-5C782DCD4CB9}|FoodOrdering.Web\\FoodOrdering.Web.csproj|solutionrelative:foodordering.web\\foodordering.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0BDC33-863C-BBB2-0892-5C782DCD4CB9}|FoodOrdering.Web\\FoodOrdering.Web.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-12-ci-cd\\09-05-2026\\assessments\\foodorderingsystem\\foodordering.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA0BDC33-863C-BBB2-0892-5C782DCD4CB9}|FoodOrdering.Web\\FoodOrdering.Web.csproj|solutionrelative:foodordering.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40CCF2EC-F518-E85F-49F9-DE5AC5D95B95}|FoodOrdering.Infrastructure\\FoodOrdering.Infrastructure.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-12-ci-cd\\09-05-2026\\assessments\\foodorderingsystem\\foodordering.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40CCF2EC-F518-E85F-49F9-DE5AC5D95B95}|FoodOrdering.Infrastructure\\FoodOrdering.Infrastructure.csproj|solutionrelative:foodordering.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0BDC33-863C-BBB2-0892-5C782DCD4CB9}|FoodOrdering.Web\\FoodOrdering.Web.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-12-ci-cd\\09-05-2026\\assessments\\foodorderingsystem\\foodordering.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0BDC33-863C-BBB2-0892-5C782DCD4CB9}|FoodOrdering.Web\\FoodOrdering.Web.csproj|solutionrelative:foodordering.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0BDC33-863C-BBB2-0892-5C782DCD4CB9}|FoodOrdering.Web\\FoodOrdering.Web.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-12-ci-cd\\09-05-2026\\assessments\\foodorderingsystem\\foodordering.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0BDC33-863C-BBB2-0892-5C782DCD4CB9}|FoodOrdering.Web\\FoodOrdering.Web.csproj|solutionrelative:foodordering.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA8234C-ACE9-5E81-F711-080DE6938A3C}|FoodOrdering.Core\\FoodOrdering.Core.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-12-ci-cd\\09-05-2026\\assessments\\foodorderingsystem\\foodordering.core\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA8234C-ACE9-5E81-F711-080DE6938A3C}|FoodOrdering.Core\\FoodOrdering.Core.csproj|solutionrelative:foodordering.core\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0BDC33-863C-BBB2-0892-5C782DCD4CB9}|FoodOrdering.Web\\FoodOrdering.Web.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-12-ci-cd\\09-05-2026\\assessments\\foodorderingsystem\\foodordering.web\\controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0BDC33-863C-BBB2-0892-5C782DCD4CB9}|FoodOrdering.Web\\FoodOrdering.Web.csproj|solutionrelative:foodordering.web\\controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0BDC33-863C-BBB2-0892-5C782DCD4CB9}|FoodOrdering.Web\\FoodOrdering.Web.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-12-ci-cd\\09-05-2026\\assessments\\foodorderingsystem\\foodordering.web\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0BDC33-863C-BBB2-0892-5C782DCD4CB9}|FoodOrdering.Web\\FoodOrdering.Web.csproj|solutionrelative:foodordering.web\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0BDC33-863C-BBB2-0892-5C782DCD4CB9}|FoodOrdering.Web\\FoodOrdering.Web.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-12-ci-cd\\09-05-2026\\assessments\\foodorderingsystem\\foodordering.web\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0BDC33-863C-BBB2-0892-5C782DCD4CB9}|FoodOrdering.Web\\FoodOrdering.Web.csproj|solutionrelative:foodordering.web\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0BDC33-863C-BBB2-0892-5C782DCD4CB9}|FoodOrdering.Web\\FoodOrdering.Web.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-12-ci-cd\\09-05-2026\\assessments\\foodorderingsystem\\foodordering.web\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0BDC33-863C-BBB2-0892-5C782DCD4CB9}|FoodOrdering.Web\\FoodOrdering.Web.csproj|solutionrelative:foodordering.web\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA8234C-ACE9-5E81-F711-080DE6938A3C}|FoodOrdering.Core\\FoodOrdering.Core.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-12-ci-cd\\09-05-2026\\assessments\\foodorderingsystem\\foodordering.core\\foodordering.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4AA8234C-ACE9-5E81-F711-080DE6938A3C}|FoodOrdering.Core\\FoodOrdering.Core.csproj|solutionrelative:foodordering.core\\foodordering.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40CCF2EC-F518-E85F-49F9-DE5AC5D95B95}|FoodOrdering.Infrastructure\\FoodOrdering.Infrastructure.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-12-ci-cd\\09-05-2026\\assessments\\foodorderingsystem\\foodordering.infrastructure\\foodordering.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{40CCF2EC-F518-E85F-49F9-DE5AC5D95B95}|FoodOrdering.Infrastructure\\FoodOrdering.Infrastructure.csproj|solutionrelative:foodordering.infrastructure\\foodordering.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA8234C-ACE9-5E81-F711-080DE6938A3C}|FoodOrdering.Core\\FoodOrdering.Core.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-12-ci-cd\\09-05-2026\\assessments\\foodorderingsystem\\foodordering.core\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA8234C-ACE9-5E81-F711-080DE6938A3C}|FoodOrdering.Core\\FoodOrdering.Core.csproj|solutionrelative:foodordering.core\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA8234C-ACE9-5E81-F711-080DE6938A3C}|FoodOrdering.Core\\FoodOrdering.Core.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-12-ci-cd\\09-05-2026\\assessments\\foodorderingsystem\\foodordering.core\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA8234C-ACE9-5E81-F711-080DE6938A3C}|FoodOrdering.Core\\FoodOrdering.Core.csproj|solutionrelative:foodordering.core\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA8234C-ACE9-5E81-F711-080DE6938A3C}|FoodOrdering.Core\\FoodOrdering.Core.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-12-ci-cd\\09-05-2026\\assessments\\foodorderingsystem\\foodordering.core\\models\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA8234C-ACE9-5E81-F711-080DE6938A3C}|FoodOrdering.Core\\FoodOrdering.Core.csproj|solutionrelative:foodordering.core\\models\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA8234C-ACE9-5E81-F711-080DE6938A3C}|FoodOrdering.Core\\FoodOrdering.Core.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-12-ci-cd\\09-05-2026\\assessments\\foodorderingsystem\\foodordering.core\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA8234C-ACE9-5E81-F711-080DE6938A3C}|FoodOrdering.Core\\FoodOrdering.Core.csproj|solutionrelative:foodordering.core\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA8234C-ACE9-5E81-F711-080DE6938A3C}|FoodOrdering.Core\\FoodOrdering.Core.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-12-ci-cd\\09-05-2026\\assessments\\foodorderingsystem\\foodordering.core\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA8234C-ACE9-5E81-F711-080DE6938A3C}|FoodOrdering.Core\\FoodOrdering.Core.csproj|solutionrelative:foodordering.core\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0BDC33-863C-BBB2-0892-5C782DCD4CB9}|FoodOrdering.Web\\FoodOrdering.Web.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-12-ci-cd\\09-05-2026\\assessments\\foodorderingsystem\\foodordering.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BA0BDC33-863C-BBB2-0892-5C782DCD4CB9}|FoodOrdering.Web\\FoodOrdering.Web.csproj|solutionrelative:foodordering.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FoodOrdering.API",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.API\\FoodOrdering.API.csproj",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\FoodOrdering.API.csproj",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.API\\FoodOrdering.API.csproj",
+              "RelativeToolTip": "FoodOrdering.API\\FoodOrdering.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-09T08:35:15.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FoodOrdering.Web.csproj",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Web\\FoodOrdering.Web.csproj",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\FoodOrdering.Web.csproj",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Web\\FoodOrdering.Web.csproj",
+              "RelativeToolTip": "FoodOrdering.Web\\FoodOrdering.Web.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-09T08:04:50.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FoodOrdering.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:54:59.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Web\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Web\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "FoodOrdering.Web\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T06:43:54.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FoodOrdering.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T06:32:56.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FoodOrdering.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T06:32:39.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FoodController.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Web\\Controllers\\FoodController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Controllers\\FoodController.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Web\\Controllers\\FoodController.cs",
+              "RelativeToolTip": "FoodOrdering.Web\\Controllers\\FoodController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:29:10.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Core\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Core\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Core\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "FoodOrdering.Core\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T05:59:15.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "FoodOrdering.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:03:44.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Web\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Web\\Controllers\\CartController.cs",
+              "RelativeToolTip": "FoodOrdering.Web\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:41:12.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Web\\Program.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Web\\Program.cs",
+              "RelativeToolTip": "FoodOrdering.Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:04:43.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Web\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Web\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "FoodOrdering.Web\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:29:29.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Web\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Web\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "FoodOrdering.Web\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:29:45.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FoodOrdering.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Infrastructure\\FoodOrdering.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "FoodOrdering.Infrastructure\\FoodOrdering.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Infrastructure\\FoodOrdering.Infrastructure.csproj",
+              "RelativeToolTip": "FoodOrdering.Infrastructure\\FoodOrdering.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-09T06:03:12.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FoodOrdering.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Core\\FoodOrdering.Core.csproj",
+              "RelativeDocumentMoniker": "FoodOrdering.Core\\FoodOrdering.Core.csproj",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Core\\FoodOrdering.Core.csproj",
+              "RelativeToolTip": "FoodOrdering.Core\\FoodOrdering.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-09T05:58:30.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Core\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Core\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Core\\Models\\Order.cs",
+              "RelativeToolTip": "FoodOrdering.Core\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:01:30.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FoodItem.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Core\\Models\\FoodItem.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Core\\Models\\FoodItem.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Core\\Models\\FoodItem.cs",
+              "RelativeToolTip": "FoodOrdering.Core\\Models\\FoodItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:01:12.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Core\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Core\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Core\\Models\\Category.cs",
+              "RelativeToolTip": "FoodOrdering.Core\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:00:48.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Core\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Core\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Core\\Models\\CartItem.cs",
+              "RelativeToolTip": "FoodOrdering.Core\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:02:12.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Core\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Core\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Core\\Models\\OrderItem.cs",
+              "RelativeToolTip": "FoodOrdering.Core\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:01:59.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-12-CI-CD\\09-05-2026\\Assessments\\FoodOrderingSystem\\FoodOrdering.Web\\appsettings.json",
+              "RelativeToolTip": "FoodOrdering.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-09T06:04:03.556Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
