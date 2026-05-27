@@ -1,0 +1,15 @@
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\09-05-2026\Assessments\FoodOrderingSystem\FoodOrdering.Core\bin\Debug\net8.0\FoodOrdering.Core.deps.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\09-05-2026\Assessments\FoodOrderingSystem\FoodOrdering.Core\bin\Debug\net8.0\FoodOrdering.Core.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\09-05-2026\Assessments\FoodOrderingSystem\FoodOrdering.Core\bin\Debug\net8.0\FoodOrdering.Core.pdb
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\09-05-2026\Assessments\FoodOrderingSystem\FoodOrdering.Core\obj\Debug\net8.0\FoodOrdering.Core.csproj.AssemblyReference.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\09-05-2026\Assessments\FoodOrderingSystem\FoodOrdering.Core\obj\Debug\net8.0\FoodOrdering.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\09-05-2026\Assessments\FoodOrderingSystem\FoodOrdering.Core\obj\Debug\net8.0\FoodOrdering.Core.AssemblyInfoInputs.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\09-05-2026\Assessments\FoodOrderingSystem\FoodOrdering.Core\obj\Debug\net8.0\FoodOrdering.Core.AssemblyInfo.cs
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\09-05-2026\Assessments\FoodOrderingSystem\FoodOrdering.Core\obj\Debug\net8.0\FoodOrdering.Core.csproj.CoreCompileInputs.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\09-05-2026\Assessments\FoodOrderingSystem\FoodOrdering.Core\obj\Debug\net8.0\FoodOrdering.Core.sourcelink.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\09-05-2026\Assessments\FoodOrderingSystem\FoodOrdering.Core\obj\Debug\net8.0\FoodOrdering.Core.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\09-05-2026\Assessments\FoodOrderingSystem\FoodOrdering.Core\obj\Debug\net8.0\refint\FoodOrdering.Core.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\09-05-2026\Assessments\FoodOrderingSystem\FoodOrdering.Core\obj\Debug\net8.0\FoodOrdering.Core.pdb
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\09-05-2026\Assessments\FoodOrderingSystem\FoodOrdering.Core\obj\Debug\net8.0\ref\FoodOrdering.Core.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\09-05-2026\Assessments\FoodOrderingSystem\FoodOrdering.Core\bin\Debug\net8.0\FoodOrdering.Core.runtimeconfig.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\09-05-2026\Assessments\FoodOrderingSystem\FoodOrdering.Core\obj\Debug\net8.0\FoodOrdering.Core.genruntimeconfig.cache

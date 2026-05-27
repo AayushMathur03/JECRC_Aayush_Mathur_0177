@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="FoodOrdering.API/FoodOrdering.API.csproj" />
+  <Project Path="FoodOrdering.Core/FoodOrdering.Core.csproj" />
+  <Project Path="FoodOrdering.Infrastructure/FoodOrdering.Infrastructure.csproj" />
+  <Project Path="FoodOrdering.Web/FoodOrdering.Web.csproj" />
+</Solution>

@@ -1,0 +1,703 @@
+﻿
+@{
+    Layout = null;
+    ViewData["Title"] = "FoodExpress";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodExpress</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Poppins', sans-serif;
+            }
+
+            body {
+                background: #f4f5f7;
+            }
+
+            .navbar {
+                background: #111827;
+                padding: 1rem 2rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+                .navbar a {
+                    color: white;
+                    text-decoration: none;
+                    margin-left: 1rem;
+                    font-weight: 500;
+                }
+
+            .logo {
+                color: #ff4d4d;
+                font-size: 1.7rem;
+                font-weight: 700;
+            }
+
+            .hero {
+                background: linear-gradient(135deg, #111827, #1f2937);
+                color: white;
+                padding: 5rem 2rem;
+                text-align: center;
+            }
+
+                .hero h1 {
+                    font-size: 3rem;
+                    margin-bottom: 1rem;
+                }
+
+                .hero button {
+                    margin-top: 1rem;
+                    padding: 0.9rem 2rem;
+                    border: none;
+                    border-radius: 50px;
+                    background: #ff4d4d;
+                    color: white;
+                    font-size: 1rem;
+                    cursor: pointer;
+                }
+
+            .container-box {
+                padding: 2rem;
+            }
+
+            .food-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                gap: 1.5rem;
+            }
+
+            .food-card {
+                background: white;
+                border-radius: 16px;
+                overflow: hidden;
+                box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            }
+
+            .food-img {
+                height: 180px;
+                background: #ffe7d1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 4rem;
+            }
+
+            .food-body {
+                padding: 1rem;
+            }
+
+            .food-title {
+                font-size: 1.2rem;
+                font-weight: 600;
+            }
+
+            .food-desc {
+                color: gray;
+                margin: 0.5rem 0;
+            }
+
+            .food-footer {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .btn-red {
+                background: #ff4d4d;
+                color: white;
+                border: none;
+                padding: 0.5rem 1rem;
+                border-radius: 30px;
+                cursor: pointer;
+            }
+
+            .section {
+                margin-top: 3rem;
+            }
+
+                .section h2 {
+                    margin-bottom: 1.5rem;
+                }
+
+            .cart-box,
+            .invoice-box,
+            .admin-box,
+            .auth-box {
+                background: white;
+                border-radius: 16px;
+                padding: 1.5rem;
+                margin-top: 1rem;
+                box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            }
+
+            input,
+            select,
+            textarea {
+                width: 100%;
+                padding: 0.8rem;
+                margin-top: 0.5rem;
+                margin-bottom: 1rem;
+                border: 1px solid #ddd;
+                border-radius: 10px;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+                table th,
+                table td {
+                    border: 1px solid #ddd;
+                    padding: 0.8rem;
+                }
+
+            .badge {
+                padding: 0.3rem 0.8rem;
+                border-radius: 20px;
+                color: white;
+                font-size: 0.8rem;
+            }
+
+            .pending {
+                background: orange;
+            }
+
+            .confirmed {
+                background: blue;
+            }
+
+            .delivered {
+                background: green;
+            }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+
+    <div class="navbar">
+        <div class="logo">FoodExpress</div>
+
+        <div>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#cart">Cart</a>
+            <a href="#orders">Orders</a>
+            <a href="#admin">Admin</a>
+            <a href="#auth">Login</a>
+        </div>
+    </div>
+
+    <!-- HERO -->
+
+    <div class="hero" id="home">
+        <h1>Delicious Food Delivered Fast</h1>
+        <p>Order your favorite meals online.</p>
+        <button onclick="scrollToMenu()">Order Now</button>
+    </div>
+
+    <!-- MENU -->
+
+    <div class="container-box section" id="menu">
+
+        <h2>Browse Food Items</h2>
+
+        <input type="text" id="searchBox" placeholder="Search food..." onkeyup="searchFood()" />
+
+        <div class="food-grid" id="foodGrid"></div>
+
+    </div>
+
+    <!-- CART -->
+
+    <div class="container-box section" id="cart">
+
+        <h2>Cart</h2>
+
+        <div class="cart-box" id="cartItems"></div>
+
+        <div class="cart-box">
+            <h3>Checkout</h3>
+
+            <input type="text" placeholder="Delivery Address" id="address" />
+
+            <button class="btn-red" onclick="checkout()">
+                Checkout
+            </button>
+        </div>
+
+    </div>
+
+    <!-- ORDERS -->
+
+    <div class="container-box section" id="orders">
+
+        <h2>Order History</h2>
+
+        <div id="ordersList"></div>
+
+    </div>
+
+    <!-- INVOICE -->
+
+    <div class="container-box section">
+
+        <h2>Invoice</h2>
+
+        <div class="invoice-box" id="invoiceBox">
+            No Invoice Generated
+        </div>
+
+    </div>
+
+    <!-- ADMIN -->
+
+    <div class="container-box section" id="admin">
+
+        <h2>Admin Panel</h2>
+
+        <div class="admin-box">
+
+            <h3>Add Food Item</h3>
+
+            <input type="text" id="foodName" placeholder="Food Name" />
+
+            <input type="number" id="foodPrice" placeholder="Price" />
+
+            <input type="text" id="foodCategory" placeholder="Category" />
+
+            <textarea id="foodDescription" placeholder="Description"></textarea>
+
+            <input type="text" id="foodEmoji" placeholder="Emoji" />
+
+            <input type="file" />
+
+            <button class="btn-red" onclick="addFoodItem()">
+                Add Food
+            </button>
+
+        </div>
+
+        <div class="admin-box">
+
+            <h3>Manage Food Items</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Category</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody id="adminFoodTable"></tbody>
+
+            </table>
+
+        </div>
+
+        <div class="admin-box">
+
+            <h3>Update Order Status</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody id="orderStatusTable"></tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+    <!-- AUTH -->
+
+    <div class="container-box section" id="auth">
+
+        <h2>User Authentication</h2>
+
+        <div class="auth-box">
+
+            <h3>Register</h3>
+
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+
+            <button class="btn-red">
+                Register
+            </button>
+
+        </div>
+
+        <div class="auth-box">
+
+            <h3>Login</h3>
+
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+
+            <button class="btn-red">
+                Login
+            </button>
+
+            <p style="margin-top:1rem;color:blue;cursor:pointer">
+                Forgot Password?
+            </p>
+
+        </div>
+
+    </div>
+
+    <script>
+
+            const foods = [
+                {
+                    id: 1,
+                    name: 'Burger',
+                    price: 250,
+                    category: 'Fast Food',
+                    emoji: '🍔',
+                    description: 'Cheesy burger'
+                },
+                {
+                    id: 2,
+                    name: 'Pizza',
+                    price: 450,
+                    category: 'Italian',
+                    emoji: '🍕',
+                    description: 'Cheese pizza'
+                },
+                {
+                    id: 3,
+                    name: 'Coffee',
+                    price: 150,
+                    category: 'Drinks',
+                    emoji: '☕',
+                    description: 'Cold coffee'
+                }
+            ];
+
+            let cart = [];
+            let orders = [];
+
+            function scrollToMenu() {
+                document.getElementById('menu').scrollIntoView();
+            }
+
+            function renderFoods(data = foods) {
+
+                let html = '';
+
+                data.forEach(food => {
+
+                    html += `
+                    <div class="food-card">
+
+                        <div class="food-img">
+                            ${food.emoji}
+                        </div>
+
+                        <div class="food-body">
+
+                            <div class="food-title">
+                                ${food.name}
+                            </div>
+
+                            <div class="food-desc">
+                                ${food.description}
+                            </div>
+
+                            <div class="food-footer">
+
+                                <strong>
+                                    ₹${food.price}
+                                </strong>
+
+                                <button class="btn-red"
+                                        onclick="addToCart(${food.id})">
+
+                                    Add to Cart
+
+                                </button>
+
+                            </div>
+
+                        </div>
+                    </div>`;
+                });
+
+                document.getElementById('foodGrid').innerHTML = html;
+
+                renderAdminFoods();
+            }
+
+            function searchFood() {
+
+                const value = document
+                    .getElementById('searchBox')
+                    .value
+                    .toLowerCase();
+
+                const filtered = foods.filter(f =>
+                    f.name.toLowerCase().includes(value)
+                );
+
+                renderFoods(filtered);
+            }
+
+            function addToCart(id) {
+
+                const item = foods.find(f => f.id === id);
+
+                cart.push(item);
+
+                renderCart();
+            }
+
+            function renderCart() {
+
+                let html = '';
+                let total = 0;
+
+                cart.forEach((item, index) => {
+
+                    total += item.price;
+
+                    html += `
+                    <div style="margin-bottom:1rem">
+
+                        <strong>
+                            ${item.name}
+                        </strong>
+
+                        - ₹${item.price}
+
+                        <button class="btn-red"
+                                onclick="removeCart(${index})">
+
+                            Remove
+
+                        </button>
+                    </div>`;
+                });
+
+                html += `<hr/><h3>Total: ₹${total}</h3>`;
+
+                document.getElementById('cartItems').innerHTML = html;
+            }
+
+            function removeCart(index) {
+                cart.splice(index, 1);
+                renderCart();
+            }
+
+            function checkout() {
+
+                const address = document
+                    .getElementById('address')
+                    .value;
+
+                if (cart.length === 0) {
+                    alert('Cart is empty');
+                    return;
+                }
+
+                const order = {
+                    id: Date.now(),
+                    items: [...cart],
+                    status: 'Pending',
+                    address: address
+                };
+
+                orders.push(order);
+
+                generateInvoice(order);
+
+                renderOrders();
+
+                cart = [];
+
+                renderCart();
+
+                alert('Order Placed Successfully');
+            }
+
+            function renderOrders() {
+
+                let html = '';
+
+                orders.forEach(order => {
+
+                    html += `
+                    <div class="cart-box">
+
+                        <h4>
+                            Order ID: ${order.id}
+                        </h4>
+
+                        <p>
+                            Status:
+                            <span class="badge pending">
+                                ${order.status}
+                            </span>
+                        </p>
+
+                    </div>`;
+                });
+
+                document.getElementById('ordersList').innerHTML = html;
+
+                renderOrderStatus();
+            }
+
+            function generateInvoice(order) {
+
+                let total = 0;
+
+                let items = '';
+
+                order.items.forEach(i => {
+                    total += i.price;
+                    items += `<li>${i.name} - ₹${i.price}</li>`;
+                });
+
+                document.getElementById('invoiceBox').innerHTML = `
+
+                    <h3>Invoice</h3>
+
+                    <p>
+                        Order ID: ${order.id}
+                    </p>
+
+                    <ul>
+                        ${items}
+                    </ul>
+
+                    <h4>
+                        Total: ₹${total}
+                    </h4>`;
+            }
+
+            function addFoodItem() {
+
+                const food = {
+                    id: Date.now(),
+                    name: document.getElementById('foodName').value,
+                    price: parseInt(document.getElementById('foodPrice').value),
+                    category: document.getElementById('foodCategory').value,
+                    description: document.getElementById('foodDescription').value,
+                    emoji: document.getElementById('foodEmoji').value
+                };
+
+                foods.push(food);
+
+                renderFoods();
+
+                alert('Food Added');
+            }
+
+            function renderAdminFoods() {
+
+                let html = '';
+
+                foods.forEach(food => {
+
+                    html += `
+                    <tr>
+                        <td>${food.name}</td>
+                        <td>₹${food.price}</td>
+                        <td>${food.category}</td>
+
+                        <td>
+
+                            <button class="btn-red"
+                                    onclick="deleteFood(${food.id})">
+
+                                Delete
+
+                            </button>
+
+                        </td>
+                    </tr>`;
+                });
+
+                document.getElementById('adminFoodTable').innerHTML = html;
+            }
+
+            function deleteFood(id) {
+
+                const index = foods.findIndex(f => f.id === id);
+
+                foods.splice(index, 1);
+
+                renderFoods();
+            }
+
+            function renderOrderStatus() {
+
+                let html = '';
+
+                orders.forEach(order => {
+
+                    html += `
+                    <tr>
+
+                        <td>${order.id}</td>
+
+                        <td>
+
+                            <select onchange="changeStatus(${order.id}, this.value)">
+
+                                <option>Pending</option>
+                                <option>Confirmed</option>
+                                <option>Delivered</option>
+
+                            </select>
+
+                        </td>
+                    </tr>`;
+                });
+
+                document.getElementById('orderStatusTable').innerHTML = html;
+            }
+
+            function changeStatus(id, status) {
+
+                const order = orders.find(o => o.id === id);
+
+                order.status = status;
+
+                renderOrders();
+            }
+
+            renderFoods();
+
+    </script>
+
+</body>
+</html>
+

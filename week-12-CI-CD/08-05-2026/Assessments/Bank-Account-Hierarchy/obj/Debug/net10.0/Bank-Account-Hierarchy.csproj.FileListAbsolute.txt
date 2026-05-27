@@ -1,0 +1,15 @@
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Bank-Account-Hierarchy\bin\Debug\net10.0\Bank-Account-Hierarchy.exe
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Bank-Account-Hierarchy\bin\Debug\net10.0\Bank-Account-Hierarchy.deps.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Bank-Account-Hierarchy\bin\Debug\net10.0\Bank-Account-Hierarchy.runtimeconfig.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Bank-Account-Hierarchy\bin\Debug\net10.0\Bank-Account-Hierarchy.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Bank-Account-Hierarchy\bin\Debug\net10.0\Bank-Account-Hierarchy.pdb
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Bank-Account-Hierarchy\obj\Debug\net10.0\Bank-Account-Hierarchy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Bank-Account-Hierarchy\obj\Debug\net10.0\Bank-Account-Hierarchy.AssemblyInfoInputs.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Bank-Account-Hierarchy\obj\Debug\net10.0\Bank-Account-Hierarchy.AssemblyInfo.cs
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Bank-Account-Hierarchy\obj\Debug\net10.0\Bank-Account-Hierarchy.csproj.CoreCompileInputs.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Bank-Account-Hierarchy\obj\Debug\net10.0\Bank-Account-Hierarchy.sourcelink.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Bank-Account-Hierarchy\obj\Debug\net10.0\Bank-Account-Hierarchy.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Bank-Account-Hierarchy\obj\Debug\net10.0\refint\Bank-Account-Hierarchy.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Bank-Account-Hierarchy\obj\Debug\net10.0\Bank-Account-Hierarchy.pdb
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Bank-Account-Hierarchy\obj\Debug\net10.0\Bank-Account-Hierarchy.genruntimeconfig.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Bank-Account-Hierarchy\obj\Debug\net10.0\ref\Bank-Account-Hierarchy.dll
